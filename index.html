@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/null.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/header.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/style.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/adaptive.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/animation.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="icon" type="image/x-icon" href="https://vladhrytsaiuk.github.io/skloMix/materials/logo/favicon.png">
+	<script src='https://www.google.com/recaptcha/api.js' async defer></script>
+	<title>Sklo-mix</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href='' class='header__logo'>
+					<img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo-black_png.png" alt="logo">
+				</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto='.about_us' href="" class="menu__link">Про нас</a></li>
+							<li>
+								<a data-goto='.our_catalog' href="" class="menu__link">Каталог</a>
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7"
+									fill="none" class="menu__arrow">
+									<path d="M12 1L6.5 6L1 1" stroke="black" />
+								</svg>
+								<!-- <img href='https://vladhrytsaiuk.github.io/skloMix/materials/icon/arrow_for_tempate.svg' class="menu__arrow"> -->
+								<!-- <span class="menu__arrow"></span> -->
+								<ul class="menu__sub-list">
+									<li><a href='' class='menu__sub-link'>Меблі</a></li>
+									<li><a href='https://vladhrytsaiuk.github.io/skloMix/mirrors.html'
+											class='menu__sub-link'>Дзеркала</a></li>
+									<li><a href='' class='menu__sub-link'>Скляні конструкції</a></li>
+									<li><a href='' class='menu__sub-link'>Металопластикові конструкції</a></li>
+								</ul>
+							</li>
+							<li><a href="https://vladhrytsaiuk.github.io/skloMix/payment_and_delivery.html"
+									class="menu__link">Доставка та
+									оплата</a></li>
+							<li><a data-goto='.form__conteiner' href="" class="menu__link">Контакти</a></li>
+						</ul>
+						<a data-goto=".form__conteiner" href='#' class='menu__link menu__button '>Замовити дзвінок</a>
+						<div class="menu__contacts">
+							<div class="menu__contacts-title">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="17" viewBox="0 0 12 17"
+									fill="none" class='star-title_menu'>
+									<path
+										d="M12 8.49394C9.64622 8.79686 8.29387 9.07555 7.46362 9.99644C6.48787 11.0748 6.25678 13.0499 6 17C5.73466 12.9045 5.49501 10.9416 4.42511 9.88738C3.59486 9.06343 2.25107 8.79686 0 8.50606C2.34522 8.20314 3.70613 7.92445 4.52782 7.01568C5.51213 5.92516 5.74322 3.96222 6 0C6.23966 3.64718 6.45364 5.598 7.24964 6.72487C8.04565 7.85175 9.43224 8.16678 12 8.49394Z"
+										fill="#0079BA" />
+								</svg>
+								<h3>Контакти</h3>
+							</div>
+							<div class="menu__contact menu__contacts-number">
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16"
+									fill="none">
+									<path
+										d="M9.84388 9.77235L7.55646 10.3235C6.01139 9.35922 5.05697 8.25159 4.50153 6.52502L4.92919 3.67266L4.12078 1H2.03736C1.41107 1 0.917888 1.64351 1.01142 2.41349C1.24494 4.33573 1.93345 7.82098 3.94608 10.3235C6.05965 12.9514 9.10376 14.0918 10.7791 14.5451C11.4261 14.7201 12 14.0926 12 13.2693V10.7939L9.84388 9.77235Z"
+										stroke="#0079BA" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								<a href="tel:+38068334003">+38 (068) 334-00-33</a>
+							</div>
+							<div class="menu__contact menu__contacts-email">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11"
+									fill="none">
+									<path
+										d="M16 1.8403C16 1.59859 15.9459 1.35924 15.8408 1.13593C15.7356 0.912615 15.5814 0.709712 15.387 0.538813C15.1926 0.367914 14.9618 0.232366 14.7079 0.139915C14.4539 0.0474634 14.1817 -8.02568e-05 13.9068 1.01696e-07H2.09287C1.81802 -4.00749e-05 1.54585 0.0475332 1.29191 0.140003C1.03797 0.232472 0.807235 0.368026 0.612885 0.538921C0.418535 0.709817 0.264378 0.912705 0.159217 1.136C0.0540568 1.35929 -4.56618e-05 1.59861 2.89159e-08 1.8403V8.25305C2.51192e-08 8.4947 0.0541362 8.73399 0.159317 8.95725C0.264498 9.18051 0.418663 9.38336 0.613008 9.55422C0.807354 9.72509 1.03807 9.86061 1.29199 9.95306C1.54591 10.0455 1.81805 10.0931 2.09287 10.093H13.9075C14.1823 10.093 14.4545 10.0454 14.7084 9.95292C14.9623 9.86041 15.193 9.72482 15.3874 9.5539C15.5817 9.38298 15.7358 9.18007 15.8409 8.95676C15.946 8.73345 16.0001 8.49412 16 8.25243V1.8403ZM14.5833 2.47646L10.0873 6.77457C9.52974 7.30277 8.74087 7.64624 7.92104 7.64624H7.90574C7.0807 7.64624 6.28939 7.29176 5.73461 6.75469L1.2393 2.38746C0.918957 2.07702 0.944348 1.58736 1.29739 1.30537C1.65043 1.02337 2.19583 1.0405 2.51617 1.35002L7.01148 5.69523C7.12626 5.80557 7.26577 5.89383 7.42122 5.95447C7.57668 6.01511 7.74472 6.0468 7.91478 6.04756C8.25878 6.05705 8.58887 5.92278 8.82191 5.70104L13.3186 1.44422C13.395 1.36884 13.4877 1.30761 13.5913 1.26413C13.6949 1.22065 13.8074 1.19579 13.922 1.191C14.0367 1.18621 14.1513 1.20159 14.2592 1.23624C14.367 1.2709 14.4659 1.32412 14.5501 1.3928C14.6342 1.46149 14.7019 1.54424 14.7492 1.63623C14.7966 1.72821 14.8225 1.82757 14.8256 1.92849C14.8287 2.02941 14.8089 2.12986 14.7673 2.22395C14.7257 2.31805 14.6631 2.40389 14.5833 2.47646Z"
+										fill="#0079BA" />
+								</svg>
+								<span>vs2808@ukr.net</span>
+							</div>
+							<div class="menu__contact menu__contacts-media">
+								<div>
+									<a href='https://www.facebook.com/profile.php?id=100075954558758'>
+										<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/facebook.svg"
+											alt="">
+									</a>
+								</div>
+								<div>
+									<a href='https://www.instagram.com/sklo_mix_nv/'>
+										<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/instagram.svg"
+											alt="">
+									</a>
+								</div>
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="188" height="383" viewBox="0 0 188 383"
+								fill="none" class='star_menu'>
+								<path
+									d="M-195 191.364C-119.875 198.188 -76.7126 204.467 -50.214 225.214C-19.0713 249.51 -11.6954 294.006 -3.5 383C4.96861 290.731 12.6177 246.507 46.7653 222.757C73.2639 204.194 116.153 198.188 188 191.636C113.148 184.812 69.7125 178.533 43.4872 158.059C12.0713 133.49 4.69543 89.2666 -3.5 0C-11.1491 82.1689 -17.9786 126.12 -43.3844 151.507C-68.7903 176.895 -113.046 183.993 -195 191.364Z"
+									fill="#E7E7E7" />
+							</svg>
+						</div>
+						<!-- <img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo-black_png.png" alt="logo" class='menu__body-logo'> -->
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="main">
+				<div class="row main__row">
+					<div class="col-12 col-md-7 main__info">
+						<h1 class="main__title animate__animated">Унікальні дзеркала
+							для вашого інтер’єру</h1>
+						<p class="main__description animate__animated">Покращуйте свій інтер'єр та відчуйте магію
+							відображення з
+							нашими чарівними дзеркалами</p>
+						<div class='main__button animate__animated'>
+							<a data-goto='.form__conteiner' href="#" class='menu__link'>Дізнатися деталі</a>
+						</div>
+					</div>
+					<div class="col-12 col-md-5 main__img">
+						<svg xmlns="http://www.w3.org/2000/svg" width="35" height="87" viewBox="0 0 35 87" fill="none"
+							class='main__star-1'>
+							<path
+								d="M35 43.7256C28.1348 45.2578 24.1904 46.6674 21.7689 51.3253C18.923 56.7799 18.2489 66.7698 17.5 86.7496C16.7261 66.0344 16.0271 56.1057 12.9066 50.7737C10.485 46.6061 6.56562 45.2578 0 43.7869C6.84023 42.2547 10.8096 40.8451 13.2061 36.2485C16.077 30.7326 16.7511 20.8039 17.5 0.762817C18.199 19.2105 18.8231 29.0778 21.1448 34.7776C23.4665 40.4773 27.5107 42.0708 35 43.7256Z"
+								fill="#D9D9D9" />
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" width="125" height="236" viewBox="0 0 125 236"
+							fill="none" class='main__star-2'>
+							<path
+								d="M125 117.916C100.481 122.121 86.3944 125.99 77.7461 138.774C67.582 153.745 65.1748 181.163 62.5 236C59.7361 179.145 57.2397 151.895 46.0949 137.26C37.4465 125.822 23.4486 122.121 0 118.084C24.4294 113.879 38.6056 110.01 47.1648 97.3942C57.418 82.2552 59.8252 55.005 62.5 0C64.9964 50.6315 67.2254 77.7135 75.5171 93.3571C83.8088 109.001 98.2525 113.374 125 117.916Z"
+								fill="#E7E7E7" />
+						</svg>
+						<div class='main__img-1'>
+						</div>
+						<div class='main__img-2'>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about_us" id='about_us'>
+				<div class="row conteiner">
+					<div class="col-12 col-md-6 about_us__info">
+						<div class="about_us__title animate__animated">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45"
+								fill="none" class='star-title'>
+								<path
+									d="M32 22.0115C25.7233 22.7965 22.117 23.5187 19.903 25.9051C17.301 28.6998 16.6847 33.818 16 44.0544C15.2924 33.4412 14.6534 28.3544 11.8003 25.6225C9.58631 23.4873 6.00285 22.7965 0 22.0429C6.25392 21.2579 9.88302 20.5357 12.0742 18.1807C14.699 15.3547 15.3153 10.2679 16 0C16.6391 9.45145 17.2097 14.5069 19.3324 17.4271C21.4551 20.3473 25.1526 21.1637 32 22.0115Z"
+									fill="#0079BA" />
+							</svg>
+							<h2>Скло Мікс</h2>
+						</div>
+						<div class="about_us__description">
+							<p>Ласкаво просимо до магазину <b>"Скло-мікс"</b> – вашого найкращого партнера у світі
+								дзеркал та скла! Ми
+								раді
+								вітати вас на нашому віртуальному порталі, де ми пропонуємо розкішний вибір якісних
+								дзеркал та скляних
+								виробів, виготовлених з найвищою майстерністю та застосуванням передових
+								технологій.</br>
+								<b>"Скло-мікс"</b> - це магазин, де краса і функціональність об'єднуються в гармонійних
+								виробах. Ми
+								сподіваємося стати вашим надійним партнером у створенні
+								унікальних та елегантних інтер'єрів.
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="about_us__img">
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<section class="our_catalog" id='our_catalog'>
+				<svg xmlns="http://www.w3.org/2000/svg" width="191" height="383" viewBox="0 0 191 383" fill="none"
+					class='our_catalog__star-1'>
+					<path
+						d="M383 191.364C307.875 198.188 264.713 204.467 238.214 225.214C207.071 249.51 199.695 294.006 191.5 383C183.031 290.731 175.382 246.507 141.235 222.757C114.736 204.194 71.8466 198.188 0 191.636C74.8516 184.812 118.287 178.533 144.513 158.059C175.929 133.49 183.305 89.2666 191.5 0C199.149 82.1689 205.979 126.12 231.384 151.507C256.79 176.895 301.046 183.993 383 191.364Z"
+						fill="#E7E7E7" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" width="192" height="383" viewBox="0 0 192 383" fill="none"
+					class='our_catalog__star-2'>
+					<path
+						d="M-191 191.364C-115.875 198.188 -72.7126 204.467 -46.214 225.214C-15.0713 249.51 -7.69543 294.006 0.5 383C8.96861 290.731 16.6177 246.507 50.7653 222.757C77.2639 204.194 120.153 198.188 192 191.636C117.148 184.812 73.7125 178.533 47.4872 158.059C16.0713 133.49 8.69543 89.2666 0.5 0C-7.14908 82.1689 -13.9786 126.12 -39.3844 151.507C-64.7903 176.895 -109.046 183.993 -191 191.364Z"
+						fill="#E7E7E7" />
+				</svg>
+				<div class="conteiner our_catalog__container">
+					<div class="our_catalog__title">
+						<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45" fill="none"
+							class='star-title'>
+							<path
+								d="M32 22.0115C25.7233 22.7965 22.117 23.5187 19.903 25.9051C17.301 28.6998 16.6847 33.818 16 44.0544C15.2924 33.4412 14.6534 28.3544 11.8003 25.6225C9.58631 23.4873 6.00285 22.7965 0 22.0429C6.25392 21.2579 9.88302 20.5357 12.0742 18.1807C14.699 15.3547 15.3153 10.2679 16 0C16.6391 9.45145 17.2097 14.5069 19.3324 17.4271C21.4551 20.3473 25.1526 21.1637 32 22.0115Z"
+								fill="#0079BA" />
+						</svg>
+						<h2>Що ми пропонуємо</h2>
+					</div>
+					<div class="row our_catalog__cards">
+						<div href='' class="col-6 col-md-3 our_catalog__card">
+							<a href='' class="our_catalog__card-1">
+								<div class="our_catalog__card-bcg_grad ">
+									<div class="our_catalog__card-number">01</div>
+									<div class="our_catalog__card-text">Меблі</div>
+								</div>
+							</a>
+						</div>
+						<div href='' class="col-6 col-md-3 our_catalog__card">
+							<a href='mirrors.html' class="our_catalog__card-2">
+								<div class="our_catalog__card-bcg_grad">
+									<div class="our_catalog__card-number">02</div>
+									<div class="our_catalog__card-text">Дзеркала</div>
+								</div>
+							</a>
+						</div>
+						<div href='' class="col-6 col-md-3 our_catalog__card">
+							<a href='' class="our_catalog__card-3">
+								<div class="our_catalog__card-bcg_grad">
+									<div class="our_catalog__card-number">03</div>
+									<div class="our_catalog__card-text">Скляні конструкціїї</div>
+								</div>
+							</a>
+						</div>
+						<div href='' class="col-6 col-md-3 our_catalog__card">
+							<a href='' class="our_catalog__card-4">
+								<div class="our_catalog__card-bcg_grad">
+									<div class="our_catalog__card-number">04</div>
+									<div class="our_catalog__card-text">Металопластикові
+										конструкції</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="counters">
+				<div class="row conteiner">
+					<div class="col-12 col-md-3	counters__counter">
+						<div class="counters__counter-count">
+							<div class='counters__counter-count'>
+								<div data-digits-counter>100</div>
+								<div>+</div>
+							</div>
+						</div>
+						<div class="counters__counter-count_title">Позитивних відгуків</div>
+					</div>
+					<hr class='counters__line'>
+					<div class="col-12 col-md-3	counters__counter">
+						<div class="counters__counter-count">
+							<div class='counters__counter-count'>
+								<div data-digits-counter>500</div>
+								<div>+</div>
+							</div>
+						</div>
+						<div class="counters__counter-count_title">Кількість виготовлених дзеркал</div>
+					</div>
+					<hr class='counters__line'>
+					<div class="col-12 col-md-3	counters__counter">
+						<div class="counters__counter-count">
+							<div class='counters__counter-count'>
+								<div data-digits-counter>1000</div>
+								<div>+</div>
+							</div>
+						</div>
+						<div class="counters__counter-count_title">Кількість видів товару</div>
+					</div>
+				</div>
+			</section>
+			<section class="our_advantages">
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<div class="our_advantage our_advantage-1">
+							<div class="our_advantage__title">
+								<div class="our_advantage__number">
+									01
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45"
+										fill="none" class='our_advantage__number-star'>
+										<path
+											d="M32 22.0115C25.7233 22.7965 22.117 23.5187 19.903 25.9051C17.301 28.6998 16.6847 33.818 16 44.0544C15.2924 33.4412 14.6534 28.3544 11.8003 25.6225C9.58631 23.4873 6.00285 22.7965 0 22.0429C6.25392 21.2579 9.88302 20.5357 12.0742 18.1807C14.699 15.3547 15.3153 10.2679 16 0C16.6391 9.45145 17.2097 14.5069 19.3324 17.4271C21.4551 20.3473 25.1526 21.1637 32 22.0115Z"
+											fill="#0079BA" />
+									</svg>
+								</div>
+								<h3>Висока Якість</h3>
+							</div>
+							<div class="our_advantage__description"> Ми прагнемо до найвищого рівня якості в усьому, що
+								робимо. Наші
+								дзеркала відображають реальність точно та чітко, а скляні вироби мають витончений
+								дизайн. Кожен виріб проходить строгий контроль якості, щоб ви отримали продукт, який вас
+								вразить.</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="our_advantage our_advantage-2">
+							<div class="our_advantage__title">
+								<div class="our_advantage__number">
+									02
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45"
+										fill="none" class='our_advantage__number-star'>
+										<path
+											d="M32 22.4057C25.7233 23.1907 22.117 23.9129 19.903 26.2993C17.301 29.0939 16.6847 34.2121 16 44.4486C15.2924 33.8353 14.6534 28.7485 11.8003 26.0167C9.58631 23.8815 6.00285 23.1907 0 22.4371C6.25392 21.6521 9.88302 20.9299 12.0742 18.5749C14.699 15.7488 15.3153 10.662 16 0.394165C16.6391 9.84562 17.2097 14.901 19.3324 17.8213C21.4551 20.7415 25.1526 21.5579 32 22.4057Z"
+											fill="#0079BA" />
+									</svg>
+								</div>
+								<h3> Індивідуальний Підхід</h3>
+							</div>
+							<div class="our_advantage__description">Ми розуміємо, що кожен клієнт унікальний, тому
+								готові виготовити
+								виріб під ваші індивідуальні замовлення та вимоги. Наша команда майстрів створить для
+								вас дзеркало або
+								скляний виріб, який відповідає вашим очікуванням.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 p-0">
+						<div class="our_advantage our_advantage-3">
+							<div class="our_advantage__title">
+								<div class="our_advantage__number">
+									03
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45"
+										fill="none" class='our_advantage__number-star'>
+										<path
+											d="M32 22.1346C25.7233 22.9196 22.117 23.6418 19.903 26.0282C17.301 28.8228 16.6847 33.941 16 44.1775C15.2924 33.5642 14.6534 28.4774 11.8003 25.7456C9.58631 23.6104 6.00285 22.9196 0 22.166C6.25392 21.381 9.88302 20.6588 12.0742 18.3037C14.699 15.4777 15.3153 10.3909 16 0.123047C16.6391 9.5745 17.2097 14.6299 19.3324 17.5501C21.4551 20.4704 25.1526 21.2868 32 22.1346Z"
+											fill="#0079BA" />
+									</svg>
+								</div>
+								<h3>Широкий асортимент</h3>
+							</div>
+							<div class="our_advantage__description">У нас є великий вибір дзеркал різних форм, розмірів
+								та стилів. У
+								нас є варіанти для кожного смаку та інтер'єру. Ми завжди оновлюємо наш асортимент, щоб
+								задовольнити
+								потреби найвибагливіших клієнтів.</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 p-0">
+						<div class="our_advantage our_advantage-4">
+							<div class="our_advantage__title">
+								<div class="our_advantage__number">
+									04
+									<svg xmlns="http://www.w3.org/2000/svg" width="32" height="45" viewBox="0 0 32 45"
+										fill="none" class='our_advantage__number-star'>
+										<path
+											d="M32 22.0115C25.7233 22.7965 22.117 23.5187 19.903 25.9051C17.301 28.6998 16.6847 33.818 16 44.0544C15.2924 33.4412 14.6534 28.3544 11.8003 25.6225C9.58631 23.4873 6.00285 22.7965 0 22.0429C6.25392 21.2579 9.88302 20.5357 12.0742 18.1807C14.699 15.3547 15.3153 10.2679 16 0C16.6391 9.45145 17.2097 14.5069 19.3324 17.4271C21.4551 20.3473 25.1526 21.1637 32 22.0115Z"
+											fill="#0079BA" />
+									</svg>
+								</div>
+								<h3>Професійний Сервіс</h3>
+							</div>
+							<div class="our_advantage__description">Наша команда не тільки надає інформацію про наші
+								продукти, але й
+								допомагає клієнтам вибрати найкращий варіант, враховуючи їхні потреби та бюджет. Ми
+								завжди готові
+								відповісти на питання та надати консультації для того, щоб клієнт почував себе впевнено
+								у своєму виборі
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section class="algorithm">
+				<div class="algorithm__bcg">
+					<div class="container">
+						<div class="algorithm__item">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="38" height="52" viewBox="0 0 38 52"
+									fill="none">
+									<g clip-path="url(#clip0_212_155)">
+										<path d="M1 0H28.9184L37 8.90481V51H1V0Z" stroke="white" />
+										<path d="M29 0V9H37" stroke="white" />
+										<path d="M7 16H21" stroke="white" />
+										<path d="M7 23H30" stroke="white" />
+										<path d="M7 27H30" stroke="white" />
+										<path d="M7 31H30" stroke="white" />
+										<path d="M7 35H30" stroke="white" />
+										<path d="M7 39H14" stroke="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_212_155">
+											<rect width="38" height="52" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							Залишіть заявку на нашому сайті
+						</div>
+						<div class='algorithm__arrow'>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 24 34"
+								fill="none">
+								<path
+									d="M10.9393 33.0607C11.5251 33.6464 12.4749 33.6464 13.0607 33.0607L22.6066 23.5147C23.1924 22.9289 23.1924 21.9792 22.6066 21.3934C22.0208 20.8076 21.0711 20.8076 20.4853 21.3934L12 29.8787L3.51472 21.3934C2.92893 20.8076 1.97918 20.8076 1.3934 21.3934C0.807611 21.9792 0.807611 22.9289 1.3934 23.5147L10.9393 33.0607ZM10.5 -7.27748e-08L10.5 32L13.5 32L13.5 7.27748e-08L10.5 -7.27748e-08Z"
+									fill="white" />
+							</svg>
+						</div>
+						<div class="algorithm__item">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29"
+									fill="none">
+									<g clip-path="url(#clip0_212_186)">
+										<path d="M6.64714 18.2378L9.08971 20.163L11.7894 18.3662" stroke="white" />
+										<path
+											d="M4.97767 19.0082L7.42024 22.2168L9.11372 20.4433L10.7627 22.2168L13.5563 18.9648"
+											stroke="white" />
+										<path d="M9.08948 20.1631V28.7623" stroke="white" />
+										<path d="M6.64714 16.4413V18.2382M11.6608 16.313V18.3665" stroke="white" />
+										<path
+											d="M6.64667 18.1091C6.64667 18.1091 3.947 19.3926 2.66144 20.1627C1.37588 20.9327 0.604538 22.4729 0.604538 23.2429C0.604538 24.013 0.604538 28.7618 0.604538 28.7618"
+											stroke="white" />
+										<path
+											d="M11.6622 18.2378C11.6622 18.2378 14.4905 19.3929 15.776 20.163C17.0616 20.933 17.833 22.4732 17.833 23.2433C17.833 24.0134 17.833 28.7621 17.833 28.7621"
+											stroke="white" />
+										<path
+											d="M29.6011 13.8738H18.2478V19.729H24.4185L27.3752 22.6809V19.729H29.6011V13.8738Z"
+											stroke="white" />
+										<path
+											d="M3.17587 7.5852H0.476189V0.237793H29.4013V7.5852H21.5594L18.474 11.6923V7.5852H14.746"
+											stroke="white" />
+										<path
+											d="M4.97604 9.63886C4.97604 9.63886 4.84747 11.564 4.84747 12.3341C4.84747 13.1042 5.23314 17.0829 9.08981 17.0829C12.9465 17.0829 13.3322 12.7191 13.3322 12.3341C13.3322 11.9491 13.2036 9.5105 13.2036 9.5105"
+											stroke="white" />
+										<path
+											d="M9.34619 9.51071C11.0169 9.25404 11.146 7.58554 11.146 7.58554C12.0453 9.38235 12.6881 9.51071 13.8456 9.51071C13.8456 9.51071 14.1028 5.14697 8.96048 5.14697C3.81825 5.14697 4.20392 9.51071 4.20392 9.51071C4.20392 9.51071 7.67548 9.76739 9.34619 9.51071Z"
+											stroke="white" />
+										<path
+											d="M4.97205 9.63873C4.97205 9.63873 4.07295 9.51028 3.68753 9.89541C3.30211 10.2805 3.17453 11.3072 3.42974 11.9488C3.68495 12.5905 4.97205 13.489 4.97205 13.489"
+											stroke="white" />
+										<path
+											d="M13.2022 9.53108C13.2022 9.53108 14.1013 9.40258 14.4868 9.78775C14.8722 10.1729 14.9998 11.1995 14.7446 11.8411C14.4893 12.4828 13.2022 13.3813 13.2022 13.3813"
+											stroke="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_212_186">
+											<rect width="30" height="29" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							Наш менеджер зв'яжеться з вами найближчим часом та підготує вам вигідну пропозицію
+						</div>
+						<div class='algorithm__arrow'>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 24 34"
+								fill="none">
+								<path
+									d="M10.9393 33.0607C11.5251 33.6464 12.4749 33.6464 13.0607 33.0607L22.6066 23.5147C23.1924 22.9289 23.1924 21.9792 22.6066 21.3934C22.0208 20.8076 21.0711 20.8076 20.4853 21.3934L12 29.8787L3.51472 21.3934C2.92893 20.8076 1.97918 20.8076 1.3934 21.3934C0.807611 21.9792 0.807611 22.9289 1.3934 23.5147L10.9393 33.0607ZM10.5 -7.27748e-08L10.5 32L13.5 32L13.5 7.27748e-08L10.5 -7.27748e-08Z"
+									fill="white" />
+							</svg>
+						</div>
+						<div class="algorithm__item">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="29" height="37" viewBox="0 0 29 37"
+									fill="none">
+									<g clip-path="url(#clip0_238_5)">
+										<path d="M0.421913 33.821H26.2298V13.9585V0.362549H20.4362H0.421913V33.821Z"
+											stroke="white" />
+										<path d="M2.74995 33.8209V36.169H28.5579V16.3064V2.71045H26.3264"
+											stroke="white" />
+										<path
+											d="M11.483 4.47119V13.8631H7.99021H4.49741V8.40322V4.47119H6.06562H11.483Z"
+											stroke="white" />
+										<path
+											d="M16.1391 6.81934H22.2515M16.1391 9.16728H22.2515M16.1391 11.5152H22.2515"
+											stroke="white" />
+										<path
+											d="M12.0645 18.8525H22.2518M12.0645 23.5485H22.2518M12.0645 28.2444H22.2518"
+											stroke="white" />
+										<path d="M5.66059 18.6764L6.75209 19.7329L8.57127 17.9719" stroke="white" />
+										<path d="M5.66059 23.3726L6.75209 24.4292L8.57127 22.6682" stroke="white" />
+										<path d="M5.66059 28.0686L6.75209 29.1252L8.57127 27.3643" stroke="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_238_5">
+											<rect width="29" height="37" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							Підтвердьте замовлення відповідно до наданої інформації та угоди менеджера
+						</div>
+						<div class='algorithm__arrow'>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 24 34"
+								fill="none">
+								<path
+									d="M10.9393 33.0607C11.5251 33.6464 12.4749 33.6464 13.0607 33.0607L22.6066 23.5147C23.1924 22.9289 23.1924 21.9792 22.6066 21.3934C22.0208 20.8076 21.0711 20.8076 20.4853 21.3934L12 29.8787L3.51472 21.3934C2.92893 20.8076 1.97918 20.8076 1.3934 21.3934C0.807611 21.9792 0.807611 22.9289 1.3934 23.5147L10.9393 33.0607ZM10.5 -7.27748e-08L10.5 32L13.5 32L13.5 7.27748e-08L10.5 -7.27748e-08Z"
+									fill="white" />
+							</svg>
+						</div>
+						<div class="algorithm__item">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="31" height="32" viewBox="0 0 31 32"
+									fill="none">
+									<g clip-path="url(#clip0_238_17)">
+										<path
+											d="M18.4681 17.2895H19.0339L19.485 15.9509L20.14 17.9809L20.4456 17.2895H21.5953"
+											stroke="white" />
+										<path d="M12.0785 9.0813H22.0192" stroke="white" />
+										<path d="M13.9052 5.47583H20.1094" stroke="white" />
+										<path d="M12.0785 10.677H22.0192" stroke="white" />
+										<path d="M12.0785 12.2712H22.0192" stroke="white" />
+										<path d="M12.0785 13.8662H15.2343" stroke="white" />
+										<path d="M20.7114 20.762H24.6974V0.666748H9.23404V19.3334" stroke="white" />
+										<path
+											d="M26.7217 19.7719L26.8675 19.6923C27.4385 19.3799 28.1067 19.3021 28.733 19.4752C29.3594 19.6483 29.8954 20.059 30.2296 20.6217C30.2832 20.7117 30.3008 20.819 30.2788 20.9217C30.2567 21.0243 30.1968 21.1147 30.1111 21.1741L20.9761 27.5137C20.9602 27.5248 20.9436 27.5347 20.9263 27.5433C19.6155 28.1957 18.1326 28.4073 16.6944 28.1472L11.4129 27.1643C11.4043 27.1626 11.3958 27.1609 11.3874 27.1587C11.0061 27.0612 10.6023 27.1139 10.258 27.3062L6.59575 30.3334M26.7217 19.7719L21.766 23.0001M26.7217 19.7719C26.2251 19.1693 25.4476 18.8565 24.734 18.9539M6.59575 30.3334V31.3334H0.659576V18.6667H6.59575V21.0223M6.59575 30.3334V21.0223M6.59575 21.0223L7.47047 20.2352C7.47885 20.2275 7.48756 20.2207 7.49646 20.2138C8.41347 19.5127 9.50454 19.0818 10.6489 18.9689C11.7933 18.8559 12.9462 19.0653 13.9801 19.5738L14.3425 19.7509C14.8543 20.0002 15.4151 20.1301 15.9833 20.1309H18.6137C19.6644 19.9761 21.766 20.9334 21.766 23.3334C21.766 23.4777 16.6213 23.1334 15.8298 23.6667M20.9931 21.1631L21.5099 20.8254"
+											stroke="white" />
+										<path
+											d="M3.62766 30.3334C4.3562 30.3334 4.94681 29.7365 4.94681 29.0001C4.94681 28.2637 4.3562 27.6667 3.62766 27.6667C2.89911 27.6667 2.30851 28.2637 2.30851 29.0001C2.30851 29.7365 2.89911 30.3334 3.62766 30.3334Z"
+											stroke="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_238_17">
+											<rect width="31" height="32" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							Ми готуємо ваше замовлення та допоможемо організувати транспортні послуги
+						</div>
+						<div class='algorithm__arrow'>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 24 34"
+								fill="none">
+								<path
+									d="M10.9393 33.0607C11.5251 33.6464 12.4749 33.6464 13.0607 33.0607L22.6066 23.5147C23.1924 22.9289 23.1924 21.9792 22.6066 21.3934C22.0208 20.8076 21.0711 20.8076 20.4853 21.3934L12 29.8787L3.51472 21.3934C2.92893 20.8076 1.97918 20.8076 1.3934 21.3934C0.807611 21.9792 0.807611 22.9289 1.3934 23.5147L10.9393 33.0607ZM10.5 -7.27748e-08L10.5 32L13.5 32L13.5 7.27748e-08L10.5 -7.27748e-08Z"
+									fill="white" />
+							</svg>
+						</div>
+						<div class="algorithm__item">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="32" viewBox="0 0 30 32"
+									fill="none">
+									<g clip-path="url(#clip0_238_30)">
+										<path d="M9.57586 12.1716H25.1004" stroke="white" />
+										<path d="M9.57586 14.7383H25.1004" stroke="white" />
+										<path d="M9.57586 17.3042H25.1004" stroke="white" />
+										<path d="M9.57586 19.8708H25.1004" stroke="white" />
+										<path d="M9.57586 22.4368H14.5043" stroke="white" />
+										<path d="M14.8744 8.27637H19.8029" stroke="white" />
+										<path d="M29.286 0.711182H5.13672V31.6223H18.4435H29.286V0.711182Z"
+											stroke="white" />
+										<path d="M1.67176 18.2439L2.40117 21.0804L3.13058 18.2439H2.32674H1.67176Z"
+											stroke="white" />
+										<path d="M1.67176 0.711182H3.13058V17.3042H2.32675H1.67176V0.711182Z"
+											stroke="white" />
+										<path d="M0.714287 1.81396V6.48868" stroke="white" />
+										<path d="M3.13058 4.87769H1.67176" stroke="white" />
+										<path
+											d="M20.2037 26.663H21.0898L21.7964 24.5979L22.8221 27.7295L23.3009 26.663H25.1016"
+											stroke="white" />
+									</g>
+									<defs>
+										<clipPath id="clip0_238_30">
+											<rect width="30" height="32" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</div>
+							Ми надсилаємо ваше замовлення згідно умов договору
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="conteiner">
+					<div class="reviews__title">
+						<h2>Відгуки наших клієнтів</h2>
+					</div>
+					<div class="slider">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide" data-swiper-autoplay="2000">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-3 col-md-2 reviews__icon">
+											<div class='reviews__icon_user reviews__icon_user-1'></div>
+										</div>
+										<div class="col-5 col-md-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ліля Буренкова</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Дзеркало перевершило всі мої очікування. Воно не тільки ідеально
+													вписалося в мій інтер'єр, але й додало нотку стилю та розкоші. Ваші
+													продукти вражають якістю та дизайном, а ваша команда підтверджує
+													високий рівень обслуговування.</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+
+
+
+
+
+
+							<div class="swiper-slide">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-2">
+											<div class='reviews__icon_user reviews__icon_user-2'></div>
+										</div>
+										<div class="col-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ігор Колесник</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Чудова компанія! Все злагоджено, без нервування, максимально
+													доброзичливо, оплата
+													онлайн,
+													ввічливі та педантичні збирачі. Встановили все грамотно, прибрали
+													сміття</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-2 reviews__icon">
+											<div class='reviews__icon_user reviews__icon_user-1'></div>
+										</div>
+										<div class="col-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ігор Буренков</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Чудова компанія! Все злагоджено, без нервування, максимально
+													доброзичливо, оплата
+													онлайн,
+													ввічливі та педантичні збирачі. Встановили все грамотно, прибрали
+													сміття</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-2 reviews__icon">
+											<div class='reviews__icon_user reviews__icon_user-1'></div>
+										</div>
+										<div class="col-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ігор Буренков</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Чудова компанія! Все злагоджено, без нервування, максимально
+													доброзичливо, оплата
+													онлайн,
+													ввічливі та педантичні збирачі. Встановили все грамотно, прибрали
+													сміття</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-2 reviews__icon">
+											<div class='reviews__icon_user reviews__icon_user-1'></div>
+										</div>
+										<div class="col-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ігор Буренков</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Чудова компанія! Все злагоджено, без нервування, максимально
+													доброзичливо, оплата
+													онлайн,
+													ввічливі та педантичні збирачі. Встановили все грамотно, прибрали
+													сміття</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class='reviews__item'>
+									<div class="row">
+										<div class="col-2 reviews__icon">
+											<div class='reviews__icon_user reviews__icon_user-1'></div>
+										</div>
+										<div class="col-6">
+											<div>
+												<div class="reviews__user">Клієнт</div>
+												<div class="reviews__name_user">Ігор Буренков</div>
+											</div>
+										</div>
+										<div class="col-4">
+											<div class='reviews__raiting'>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" width="13" height="14"
+													viewBox="0 0 13 14" fill="none">
+													<g clip-path="url(#clip0_35_109)">
+														<path
+															d="M12.9661 5.09698C12.9245 4.95824 12.846 4.83575 12.7402 4.74478C12.6344 4.6538 12.5061 4.59836 12.3713 4.58536L8.61914 4.21843L7.13545 0.478529C7.02601 0.204456 6.77687 0.0270996 6.50006 0.0270996C6.22324 0.0270996 5.97408 0.204483 5.86469 0.479213L4.38098 4.21846L0.628225 4.58536C0.493554 4.59865 0.365464 4.65421 0.259838 4.74515C0.154211 4.8361 0.0756932 4.95843 0.0340184 5.09698C-0.0515755 5.38049 0.0274675 5.69142 0.236057 5.88742L3.07226 8.56609L2.23592 12.5335C2.17473 12.8252 2.27985 13.1268 2.50461 13.3017C2.6254 13.3957 2.76675 13.4436 2.90928 13.4436C3.03217 13.4436 3.15405 13.4079 3.26348 13.3374L6.50006 11.2542L9.73546 13.3374C9.97221 13.4908 10.2707 13.4768 10.4949 13.3017C10.6047 13.2161 10.6887 13.0977 10.7365 12.9611C10.7843 12.8245 10.7937 12.6758 10.7636 12.5335L9.92729 8.56609L12.7635 5.88797C12.8655 5.79201 12.9391 5.66588 12.9751 5.52525C13.0111 5.38463 13.008 5.2357 12.9661 5.09698Z"
+															fill="#FFC107" />
+													</g>
+													<defs>
+														<clipPath id="clip0_35_109">
+															<rect width="13" height="14" fill="white" />
+														</clipPath>
+													</defs>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="row reviews__row-2">
+										<div class="col-2 reviews_svg">
+											<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51"
+												viewBox="0 0 51 51" fill="none">
+												<path
+													d="M10.5188 30.6637C9.46687 33.3093 7.80937 35.9231 5.59406 38.4412C4.89281 39.2381 4.79719 40.3856 5.37094 41.2781C5.81719 41.9793 6.55031 42.3618 7.34719 42.3618C7.57031 42.3618 7.79344 42.3459 8.01656 42.2662C12.7022 40.8956 23.6512 36.0346 23.9541 20.4478C24.0656 14.4393 19.6669 9.27556 13.9453 8.68588C10.7738 8.36713 7.61812 9.40306 5.27531 11.5068C4.1166 12.5576 3.19048 13.8392 2.55645 15.2692C1.92243 16.6992 1.5945 18.246 1.59375 19.8103C1.59375 25.0696 5.32312 29.6756 10.5188 30.6637ZM39.3816 8.68588C36.2259 8.36713 33.0703 9.40306 30.7275 11.5068C29.5687 12.5576 28.6425 13.8391 28.0085 15.2692C27.3745 16.6992 27.0466 18.246 27.0459 19.8103C27.0459 25.0696 30.7753 29.6756 35.9709 30.6637C34.9191 33.3093 33.2616 35.9231 31.0462 38.4412C30.345 39.2381 30.2494 40.3856 30.8231 41.2781C31.2694 41.9793 32.0025 42.3618 32.7994 42.3618C33.0225 42.3618 33.2456 42.3459 33.4688 42.2662C38.1544 40.8956 49.1034 36.0346 49.4062 20.4478V20.2246C49.4062 14.3118 45.0553 9.27556 39.3816 8.68588Z"
+													fill="#0079BA" />
+											</svg>
+										</div>
+										<div class="col-10">
+											<div class='reviews__text'>
+												<p>Чудова компанія! Все злагоджено, без нервування, максимально
+													доброзичливо, оплата
+													онлайн,
+													ввічливі та педантичні збирачі. Встановили все грамотно, прибрали
+													сміття</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- If we need pagination -->
+
+						<!-- If we need navigation buttons -->
+						<div class='slider__controls'>
+							<div class="button-prev">
+								<div class='arrow_pagination'>
+									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16"
+										fill="none">
+										<path
+											d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM21 9H22V7H21V9ZM1 9H21V7H1V9Z"
+											fill="#BEBEBE" />
+									</svg>
+								</div>
+							</div>
+							<div class="button-next">
+								<div class='arrow_pagination'>
+									<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16"
+										fill="none">
+										<path
+											d="M21.7071 7.29289C22.0976 7.68342 22.0976 8.31658 21.7071 8.70711L15.3431 15.0711C14.9526 15.4616 14.3195 15.4616 13.9289 15.0711C13.5384 14.6805 13.5384 14.0474 13.9289 13.6569L19.5858 8L13.9289 2.34315C13.5384 1.95262 13.5384 1.31946 13.9289 0.928932C14.3195 0.538408 14.9526 0.538408 15.3431 0.928932L21.7071 7.29289ZM1 9H0V7H1V9ZM21 9H1V7H21V9Z"
+											fill="#BEBEBE" />
+									</svg>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+
+						<!-- If we need scrollbar -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</div>
+			</section>
+			<section class="faq" id='FaQ'>
+				<div class="conteiner">
+					<div class="faq__title">Відповіді на часті запитання</div>
+					<div class="spoiler one">
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Як відбувається розрахунок вартості індивідуальних виробів?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Як відбувається доставка та яка її вартість?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Який гарантійний термін надається на дзеркала?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Які типи дзеркал у вас є в асортименті?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Який матеріал використовується для виготовлення рами дзеркала?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Чи надаєте ви послуги по встановленню дзеркал?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Чи є можливість обміну або повернення дзеркала, якщо воно не підійшло?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Чи можна побачити зразки дзеркал у вашому магазині?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Чи є у вас акції або знижки на певні види дзеркал?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+						<div class="spoiler__item">
+							<div class="spoiler__title">
+								Чи надаєте ви консультації з вибору дзеркала, яке підійде під мій інтер'єр?
+							</div>
+							<div class="spoiler__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, corrupti ratione amet
+								placeat
+								aspernatur
+								ducimus ullam, repellendus neque vel dolor saepe ad unde magnam. Illo deserunt amet
+								obcaecati quasi
+								adipisci.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="form_contacts" id='form'>
+				<div class='form_bcg'>
+					<svg xmlns="http://www.w3.org/2000/svg" width="193" height="383" viewBox="0 0 193 383" fill="none"
+						class='form_star'>
+						<path
+							d="M383 191.364C307.875 198.188 264.713 204.467 238.214 225.214C207.071 249.51 199.695 294.006 191.5 383C183.031 290.731 175.382 246.507 141.235 222.757C114.736 204.194 71.8466 198.188 0 191.636C74.8516 184.812 118.287 178.533 144.513 158.059C175.929 133.49 183.305 89.2666 191.5 0C199.149 82.1689 205.979 126.12 231.384 151.507C256.79 176.895 301.046 183.993 383 191.364Z"
+							fill="#E7E7E7" />
+					</svg>
+					<div class="conteiner form__conteiner" id='form__conteiner'>
+						<div class="forms__title">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40"
+								fill="none" class='star-title'>
+								<path
+									d="M32 19.9857C25.7233 20.6985 22.117 21.3542 19.903 23.521C17.301 26.0584 16.6847 30.7056 16 40C15.2924 30.3635 14.6534 25.7448 11.8003 23.2644C9.58631 21.3257 6.00285 20.6985 0 20.0143C6.25392 19.3015 9.88302 18.6458 12.0742 16.5075C14.699 13.9416 15.3153 9.32288 16 0C16.6391 8.58161 17.2097 13.1718 19.3324 15.8232C21.4551 18.4747 25.1526 19.216 32 19.9857Z"
+									fill="#0079BA" />
+							</svg>
+							<h2>Зв’яжіться з нами</h2>
+						</div>
+						<div class="row form_contact">
+							<div class="col-12 col-md-8 form__columns">
+								<div class="form__title">Напишіть нам</div>
+								<form action="#" class='form row'>
+									<div class="col-12 col-md-6 form_column-1">
+										<div class='form__item'>
+											<span class='form__subtitle'>Ім’я</span>
+											<input required type="text" name='name' placeholder='Введіть ім’я'
+												class='form__input'>
+										</div>
+										<div class='form__item form__row_2'>
+											<span class='form__subtitle'>Номер телефону</span>
+											<input required name='number' placeholder='+38(0**) **-***-**'
+												class='form__input'>
+										</div>
+										<button class='form__button order-1' type='submit'>Надіслати</button>
+									</div>
+									<div class="col-12 col-md-6 form__row_1">
+										<div class='form__item'>
+											<span class='form__subtitle'>E-mail </span>
+											<input required type="email" name='email' placeholder='Введіть E-mail'
+												class='form__input'>
+										</div>
+										<div class='form__item form__row_2'>
+											<span class='form__subtitle'>Коментар</span>
+											<textarea name="message" placeholder='Введіть повідомлення'
+												class='form__input'></textarea>
+										</div>
+										<button class='form__button form__button-mobile form__row_1 order-1'
+											type='submit'>Надіслати</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-12 col-md-4 contact">
+								<div class="form__title">
+									Контакти
+								</div>
+								<div class="contact__info">
+									<div class="contact__item">
+										<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"
+											viewBox="0 0 21 20" fill="none">
+											<g clip-path="url(#clip0_23_33)">
+												<path
+													d="M15.6564 2.05164C15.0137 1.39918 14.2491 0.881907 13.407 0.529748C12.565 0.177589 11.662 -0.00245806 10.7506 2.61883e-05C9.83911 -0.0024984 8.93619 0.177531 8.0941 0.529692C7.25201 0.881852 6.48748 1.39915 5.84476 2.05164C3.4197 4.49954 3.11833 9.10535 5.19209 11.8959L10.7506 20L16.3007 11.9072C18.3828 9.10535 18.0815 4.49954 15.6564 2.05164ZM10.8146 9.49653C9.41848 9.49653 8.28211 8.34928 8.28211 6.93978C8.28211 5.53028 9.41848 4.38303 10.8146 4.38303C12.2108 4.38303 13.3471 5.53028 13.3471 6.93978C13.3471 8.34928 12.2108 9.49653 10.8146 9.49653Z"
+													fill="#0079BA" />
+											</g>
+											<defs>
+												<clipPath id="clip0_23_33">
+													<rect width="19.8103" height="20" fill="white"
+														transform="translate(0.844849)" />
+												</clipPath>
+											</defs>
+										</svg>
+										<div class="contact__adress_description">
+											Звягель, вул. Київська, 5
+										</div>
+									</div>
+									<div class="contact__item">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="17"
+											viewBox="0 0 22 17" fill="none">
+											<g clip-path="url(#clip0_23_27)">
+												<path
+													d="M11.9167 12.0473L8.83454 12.6157C6.75262 11.6212 5.46658 10.4789 4.71815 8.69818L5.29441 5.75643L4.20511 3H1.3978C0.5539 3 -0.110642 3.66368 0.0153946 4.45779C0.330044 6.44028 1.25779 10.0348 3.96972 12.6157C6.81766 15.326 10.9194 16.5021 13.177 16.9696C14.0487 17.1502 14.822 16.5029 14.822 15.6539V13.1009L11.9167 12.0473Z"
+													fill="#0079BA" stroke="#0079BA" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clipPath id="clip0_23_27">
+													<rect width="22" height="17" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+										<div class="contact__phone_description">
+											<a href="tel:+38068334003">+38 (068) 334-00-33</a>
+										</div>
+									</div>
+									<div class="contact__item">
+										<div class="contact__scheduled_description">
+											<span>ПН - ПТ: з 09:00 до 18:00</span>
+											<span>СБ: з 09:00 до 16:00</span>
+											<span>НД: з 10:00 до 14:00</span>
+										</div>
+									</div>
+									<div class="contact__item">
+										<svg xmlns="http://www.w3.org/2000/svg" width="23" height="19"
+											viewBox="0 0 23 19" fill="none">
+											<g clip-path="url(#clip0_23_16)">
+												<path
+													d="M22.4525 5.16985C22.4526 4.84343 22.3795 4.5202 22.2374 4.21862C22.0954 3.91704 21.8872 3.64302 21.6247 3.41223C21.3621 3.18143 21.0505 2.99838 20.7075 2.87352C20.3645 2.74867 19.9969 2.68446 19.6257 2.68457H3.67122C3.30004 2.68452 2.93248 2.74876 2.58954 2.87364C2.2466 2.99852 1.935 3.18158 1.67254 3.41237C1.41007 3.64316 1.20188 3.91716 1.05987 4.21871C0.917851 4.52027 0.844787 4.84347 0.844849 5.16985V13.8301C0.844849 14.1565 0.917958 14.4796 1.06 14.7811C1.20205 15.0827 1.41024 15.3566 1.6727 15.5873C1.93516 15.8181 2.24674 16.0011 2.58965 16.126C2.93256 16.2508 3.30008 16.3151 3.67122 16.315H19.6266C19.9978 16.315 20.3653 16.2507 20.7082 16.1258C21.0512 16.0008 21.3627 15.8177 21.6252 15.5869C21.8876 15.3561 22.0957 15.0821 22.2377 14.7805C22.3796 14.4789 22.4526 14.1557 22.4525 13.8293V5.16985ZM20.5393 6.02898L14.4675 11.8335C13.7146 12.5468 12.6492 13.0107 11.5421 13.0107H11.5214C10.4072 13.0107 9.33854 12.5319 8.58932 11.8066L2.5185 5.90879C2.08588 5.48955 2.12017 4.82827 2.59695 4.44744C3.07373 4.06661 3.81027 4.08974 4.24289 4.50774L10.3137 10.3759C10.4687 10.5249 10.6571 10.6441 10.8671 10.726C11.077 10.8078 11.3039 10.8507 11.5336 10.8517C11.9982 10.8645 12.4439 10.6832 12.7587 10.3837L18.8313 4.63496C18.9345 4.53316 19.0597 4.45047 19.1996 4.39175C19.3395 4.33303 19.4914 4.29945 19.6463 4.29299C19.8012 4.28652 19.9559 4.30729 20.1016 4.35409C20.2472 4.40089 20.3808 4.47277 20.4944 4.56552C20.608 4.65828 20.6995 4.77004 20.7634 4.89426C20.8273 5.01848 20.8624 5.15267 20.8665 5.28896C20.8707 5.42525 20.8439 5.5609 20.7877 5.68797C20.7315 5.81504 20.6471 5.93098 20.5393 6.02898Z"
+													fill="#0079BA" />
+											</g>
+											<defs>
+												<clipPath id="clip0_23_16">
+													<rect width="21.6077" height="19" fill="white"
+														transform="translate(0.844849)" />
+												</clipPath>
+											</defs>
+										</svg>
+										<div class="contact__mail_description">
+											vs2808@ukr.net
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="conteiner">
+				<div class="row">
+					<div class="col-12 col-md-3 order-4 order-md-0 footer__column">
+						<div class="footer__logo">
+							<a href=''>
+								<img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo_crop.png"
+									alt="logo">
+							</a>
+						</div>
+						<div class="copyright">
+							<span>© 2023 Скло-Мікс | Powered by WeGaS</span>
+						</div>
+						<a href='/privacy.html' class='footer__privacy'>Політика конфіденційності</a>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="footer_title">
+							<h3>Каталог</h3>
+						</div>
+						<ul class="footer__sub-list">
+							<li><a href='mirrors.html' class='menu__link footer__sub-link'>Меблі</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Дзеркала</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Скляні конструкції</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Металопластикові конструкції</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="footer_title">
+							<h3>Інформація</h3>
+						</div>
+						<ul class="footer__sub-list">
+							<li><a data-goto='.about_us' href='' class='menu__link footer__sub-link'>Про нас</a></li>
+							<li><a data-goto='.form__conteiner' href='' class='menu__link footer__sub-link'>Контакти</a>
+							</li>
+							<li><a data-goto='' href='payment_and_delivery.html'
+									class='menu__link footer__sub-link'>Доставка та
+									Оплата</a>
+							</li>
+							<li><a data-goto='.faq' href='' class='menu__link footer__sub-link'>FaQ</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3 footer__contacts">
+						<div class="footer_title">
+							<h3>Контакти</h3>
+						</div>
+						<div class="footer__phone">
+							<svg xmlns="http://www.w3.org/2000/svg" width="11" height="14" viewBox="0 0 11 14"
+								fill="none">
+								<path
+									d="M8.84388 8.77235L6.55646 9.32347C5.01139 8.35922 4.05697 7.25159 3.50153 5.52502L3.92919 2.67266L3.12078 0H1.03736C0.411071 0 -0.0821116 0.643513 0.011425 1.41349C0.244939 3.33573 0.933454 6.82098 2.94608 9.32347C5.05965 11.9514 8.10376 13.0918 9.77914 13.5451C10.4261 13.7201 11 13.0926 11 12.2693V9.79393L8.84388 8.77235Z"
+									fill="#0079BA" />
+							</svg>
+							<a href="tel:+38068334003">+38 (068) 334-00-33</a>
+						</div>
+						<div class="footer__email">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11"
+								fill="none">
+								<path
+									d="M16 1.8403C16 1.59859 15.9459 1.35924 15.8408 1.13593C15.7356 0.912615 15.5814 0.709712 15.387 0.538813C15.1926 0.367914 14.9618 0.232366 14.7079 0.139915C14.4539 0.0474634 14.1817 -8.02568e-05 13.9068 1.01696e-07H2.09287C1.81802 -4.00749e-05 1.54585 0.0475332 1.29191 0.140003C1.03797 0.232472 0.807235 0.368026 0.612885 0.538921C0.418535 0.709817 0.264378 0.912705 0.159217 1.136C0.0540568 1.35929 -4.56618e-05 1.59861 2.89159e-08 1.8403V8.25305C2.51192e-08 8.4947 0.0541362 8.73399 0.159317 8.95725C0.264498 9.18051 0.418663 9.38336 0.613008 9.55422C0.807354 9.72509 1.03807 9.86061 1.29199 9.95306C1.54591 10.0455 1.81805 10.0931 2.09287 10.093H13.9075C14.1823 10.093 14.4545 10.0454 14.7084 9.95292C14.9623 9.86041 15.193 9.72482 15.3874 9.5539C15.5817 9.38298 15.7358 9.18007 15.8409 8.95676C15.946 8.73345 16.0001 8.49412 16 8.25243V1.8403ZM14.5833 2.47646L10.0873 6.77457C9.52974 7.30277 8.74087 7.64624 7.92104 7.64624H7.90574C7.0807 7.64624 6.28939 7.29176 5.73461 6.75469L1.2393 2.38746C0.918957 2.07702 0.944348 1.58736 1.29739 1.30537C1.65043 1.02337 2.19583 1.0405 2.51617 1.35002L7.01148 5.69523C7.12626 5.80557 7.26577 5.89383 7.42122 5.95447C7.57668 6.01511 7.74472 6.0468 7.91478 6.04756C8.25878 6.05705 8.58887 5.92278 8.82191 5.70104L13.3186 1.44422C13.395 1.36884 13.4877 1.30761 13.5913 1.26413C13.6949 1.22065 13.8074 1.19579 13.922 1.191C14.0367 1.18621 14.1513 1.20159 14.2592 1.23624C14.367 1.2709 14.4659 1.32412 14.5501 1.3928C14.6342 1.46149 14.7019 1.54424 14.7492 1.63623C14.7966 1.72821 14.8225 1.82757 14.8256 1.92849C14.8287 2.02941 14.8089 2.12986 14.7673 2.22395C14.7257 2.31805 14.6631 2.40389 14.5833 2.47646Z"
+									fill="#0079BA" />
+							</svg>
+							<span>vs2808@ukr.net
+							</span>
+						</div>
+						<div class="menu__contact menu__contacts-media">
+							<div>
+								<a href='https://www.facebook.com/profile.php?id=100075954558758'>
+									<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/facebook_white.svg"
+										alt="facebook">
+								</a>
+							</div>
+							<div>
+								<a href='https://www.instagram.com/sklo_mix_nv/'>
+									<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/instagram_white.svg"
+										alt="instagram">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src='https://vladhrytsaiuk.github.io/skloMix/script/header.js'></script>
+	<script src='https://vladhrytsaiuk.github.io/skloMix/script/script.js'></script>
+	<script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+	<script src='https://vladhrytsaiuk.github.io/skloMix/script/Spoiler.js'></script>
+
+
+
+
+</body>
+
+</html>

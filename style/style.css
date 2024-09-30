@@ -1,0 +1,1544 @@
+
+html, body{
+	overflow-x: hidden;
+}
+
+.wrapper{
+	min-height: 100vh;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+}
+main{
+	flex: 1 1 auto;
+}
+.conteiner{
+	max-width: 1150px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+}
+.main{
+	height: 100vh;
+}
+.main__row{
+	align-items: center;
+	height: 100%;
+}
+
+.main__info{
+	padding-left: calc((100vw - 1150px) / 2 + 20px);
+	/* padding: 0 30px; */
+	/* margin: auto; */
+}
+.main__info div{
+	align-items: center;
+}
+.main__img{
+	height: 100vh;
+}
+.main__img-1{
+	background-image: url('https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/main-1.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 100%;
+	border-radius: 260px 0 0 0;
+}
+.main__img-2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: url('https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/main-2.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 260px;
+	width: 200px;
+	border-radius: 120px 0 0 0;
+}
+
+.main__title {
+	color: #1C1C21;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%; /* 51.3px */
+
+}
+.main__description {
+	color: #1C1C21;
+	font-family: Montserrat;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 30.8px */
+	margin-top: 30px;
+
+}
+
+.main__button{
+	margin-top: 51px;
+	transition: .3s;
+	}
+
+	.main__button a{
+		background-color: #0079BA;
+		color: #FDFEFF;
+		font-family: Montserrat;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 140%; /* 28px */
+		text-decoration: none;
+		padding: 31px 74px;
+		transition: .3s;
+	}
+
+	.main__button:hover{
+		/* transform: scale(0.99); */
+		transition: .3s;
+	}
+	.main__button a:hover{
+		background-color: #035d8d;
+	}
+
+	.main__star-1{
+		position: absolute;
+		top: 100px;
+	}
+	.main__star-2{
+		position: absolute;
+		top: 180px;
+		left: 0px;
+	}
+
+
+
+	/* ============ABOUT US============== */
+
+	.about_us {
+		background-color:  #F2F0F0;
+		padding: 54px 0;
+	}
+	.about_us__title h2{
+		padding: 15px 0 0 20px;
+	}
+	.about_us__title h2{
+		color: #1C1C21;
+		font-family: Montserrat;
+		font-size: 38px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 135%; /* 51.3px */
+	}
+	.star-title {
+		position: absolute;
+		top: -5px;
+		/* left: -5px; */
+	}
+	.about_us__description {
+		margin-top: 50px;
+		padding-left: 15px;
+	}
+	.about_us__img {
+		background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/about_us.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+		border-radius: 100px 0 100px 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.about_us__description p {
+		color: #1C1C21;
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 140%; /* 25.2px */
+	}
+	.about_us__info{
+		padding-right: 30px;
+		padding-left: 0;
+	}
+
+
+	/* ============OUR CATALOG================ */
+.our_catalog{
+	position: relative;
+	padding: 60px 0 100px 0;
+	
+}
+
+	.our_catalog__title h2{
+		color: #1C1C21;
+		font-family: Montserrat;
+		font-size: 38px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 135%; /* 51.3px */
+			padding: 15px 0 0 20px;
+	}
+	.our_catalog__title{
+		
+		position: relative;
+		margin-bottom: 50px;
+	}
+	.our_catalog__cards{
+		padding: 0 15px 84px 15px;
+		margin: 0;
+		display:flex;
+		/* justify-content: center; */
+		align-items: center;
+		gap: 20px;
+		flex-wrap: nowrap;
+		}
+
+	.our_catalog__card {
+
+		flex: 1 1 auto;
+		padding: 0;
+		display: flex;
+		height: 400px;
+		/* margin-right: 20px; */
+		transition: .5s;
+	}
+
+	.our_catalog__card-bcg_grad {
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(180deg, rgba(19, 9, 12, 0.90) 0%, rgba(0, 121, 186, 0.90) 100%);
+		opacity: .8;
+		transition: .5s;
+
+	}
+
+	.our_catalog__card:hover .our_catalog__card-bcg_grad{
+		opacity: 1;
+		transition: .5s;
+	}
+	.our_catalog__card:hover .our_catalog__card-text{
+		font-size: 21px;
+		transition: .5s;
+	}
+	
+	.our_catalog__card-number {
+	
+		margin-left: auto;
+		margin-bottom: auto;
+		padding: 7px 15px 0 0;
+		color: rgba(249, 249, 249, 0.40);
+		font-family: Montserrat;
+		font-size: 42px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 135%; /* 56.7px */
+	}
+	.our_catalog__card-text {
+		padding: 0 20px 30px 20px;
+		margin-right: auto;
+		margin-top: auto;
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 135%; /* 27px */
+		transition: .5s;
+	}
+	.our_catalog__card-1 {
+		background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/our_catalog-1.jpg");
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		text-decoration: none !important;
+	}
+	.our_catalog__card-2 {
+		background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/our_catalog-2.jpg");
+		background-size: cover;
+		margin-top: 84px;
+		height: 100%;
+		width: 100%;
+		text-decoration: none !important;
+	}
+	.our_catalog__card-3 {
+		background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/our_catalog-3.jpg");
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		text-decoration: none !important;
+	}
+	.our_catalog__card-4 {
+		background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/our_catalog-4.jpg");
+		background-size: cover;
+		margin-top: 84px;
+		height: 100%;
+		width: 100%;
+		text-decoration: none !important;
+	}
+
+	.our_catalog__star-1{
+		position: absolute;
+		top: 30px;
+		right: 0;
+	}
+	.our_catalog__star-2{
+		position: absolute;
+		bottom: -60px;
+		z-index: -2;
+		left: 0;
+	}
+
+		/* ============END OUR CATALOG================ */
+
+
+	/* ============COUNTER================ */
+
+	.counters {
+		background-color: #0079BA;
+		padding: 15px 0;
+	}
+	
+	.col-12 {
+	}
+	.counters__counter {
+		margin: auto;
+	}
+	
+	.counters__counter-count {
+		color: #FFF;
+		display: flex;
+		margin: auto;
+		font-family: Montserrat;
+		font-size: 38px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 135%; /* 51.3px */
+		margin-bottom: 14px;
+	}
+	.counters__counter-count_title {
+		color: #FFF;
+		text-align: center;
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 135%; /* 24.3px */
+	}
+	.counters__line {
+		color: #F2F0F0;
+		height: 205px;
+		border: 1px solid;
+	}
+
+
+
+
+		/* ============ END COUNTER================ */
+
+
+/* ============ OUR ADVENTAGES ================ */
+
+		.our_advantages {
+		}
+		.row {
+		}
+		.col-12 {
+		}
+		.col-md-6 {
+		}
+		.our_advantage {
+			display: flex;
+			flex-direction: column;
+			/* align-items: center; */
+			padding: 52px 0px 38px 0;
+			height: 100%;
+		}
+		.our_advantage__number {
+			position: relative;
+			color: #3434423c;
+			font-family: Montserrat;
+			font-size: 70px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 98px */
+
+		}
+		.our_advantage__title{
+			position: relative;
+			display: flex;
+			flex-direction: column;
+		}
+		.our_advantage__title h3{
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 140%; /* 30.8px */
+		}
+		.our_advantage__description {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+		.our_advantage-1 {
+			background-color:#F2F0F0;
+			padding-left: calc((100vw - 1150px) / 2 + 15px);
+			padding-right: 100px;
+		}
+		.our_advantage-2 {
+			padding-right: calc((100vw - 1150px) / 2 + 15px);
+			padding-left: 100px;
+		}
+		.our_advantage-3 {
+			padding-left: calc((100vw - 1150px) / 2 + 15px);
+			padding-right: 100px;
+		}
+		.our_advantage-4 {
+			background-color:#F2F0F0;
+			padding-right: calc((100vw - 1150px) / 2 + 15px);
+			padding-left: 100px;
+		}
+		.our_advantage__number-star{
+			position: absolute;
+			left: -10px;
+			top: 25%;
+		}
+
+
+
+		/* EFFECT */
+
+		.glowing-cards:hover .advantages__block{
+			background: radial-gradient(1500px circle at var(--x) var(--y), rgba(0, 162, 255, 0.9), transparent 15%);
+		}
+	
+		.glowing-cards .advantages__block * {
+			opacity: 0.5;
+			transition:  300ms ease-in-out;
+		}
+	
+		.glowing-cards .advantages__block:hover .advantages__block *{
+			opacity: 1;
+		}
+	
+		.advantages__block::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border-radius: inherit;
+			background: radial-gradient(1500px circle at var(--x) var(--y), rgba(0, 153, 255, 0.623), transparent 35%);
+			opacity: 0;
+			z-index: 2;
+		}
+	
+		.cards .advantages__block:hover::before {
+			opacity: 1;
+		}
+
+		.glowing-cards .advantages__block{
+			background-color: rgba(29, 29, 35, 0.7);
+			z-index: 0;
+		}
+
+		.glowing-cards .card{
+			position: relative;
+			background: radial-gradient(1000px circle at 0 0, rgba(0, 94 ,255, 0), transparent 0%);
+			transition: 100ms;
+		}
+
+
+		/* ============ END OUR ADVENTAGES================ */
+
+		/* ============ ALGORITHM================ */
+		.algorithm {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/algorithm.jpg");
+			background-size: cover;
+			background-position: 50% 50%;
+
+
+		}
+		.algorithm__bcg {
+			background: linear-gradient(180deg, rgba(19, 9, 12, 0.80) 0%, #0079BA 100%);
+			height: 100%;
+			padding: 100px 0;
+		}
+		.container {
+		}
+		.algorithm__item {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 28px */
+			padding: 0 20%;
+		}
+		.algorithm__item svg{
+			width: 56px;
+			height: 50px;
+			margin-right: 15px;
+		}
+
+		.algorithm__arrow{
+			margin: 15px auto 15px auto;
+			text-align: center;
+		}
+
+
+		/* ============ END ALGORITHM================ */
+
+
+
+		/* ============ FAQ ================ */
+
+		.faq {
+			padding: 60px 0;
+			margin-bottom: 400px;
+		}
+		
+		.faq__title{
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 135%; /* 51.3px */
+			padding: 0px 15px;
+		}
+		.conteiner {
+		}
+		.spoiler {
+			padding: 0px 15px;
+		}
+		.one {
+		}
+		.spoiler__item {
+			padding-top: 30px;
+			border-top: 1px solid;
+		}
+		.spoiler__item{
+			margin-top: 8px;
+		}
+		.spoiler__item:first-child{
+			margin-top: 35px;
+		}
+		.spoiler__item:last-child{
+			border-bottom: 1px solid;
+		}
+		.spoiler__item:last-child .spoiler__text{
+			margin-bottom: 8px;
+		}
+
+		.spoiler__title {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 135%; /* 29.7px */
+			position: relative;
+			padding: 0px 0px 20px 38px;
+			cursor: pointer;
+		}
+		.spoiler__text {
+			display: none;
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+
+		.spoiler__title::before,
+		.spoiler__title::after {
+			content: "";
+			width: 20px;
+			height: 3px;
+			background-color: #0079BA;
+			position: absolute;
+			top: 8px;
+			transition: all .3s ease 0s;
+
+}
+
+.spoiler__title::before{
+left: 0;
+}
+.spoiler__title::after{
+	transform:  rotate(90deg);
+	left: 0px;
+}
+/* .spoiler__title.active{
+	padding: 0px 0px 15px 38px;
+} */
+
+
+.spoiler__title.active::before,
+.spoiler__title.active::after{
+	background-color: #035d8d;
+}
+.spoiler__title.active:before{
+	transform: rotate(45deg);
+}
+.spoiler__title.active:after{
+	transform: rotate(135deg);
+}
+	.spoiler__item{
+			-moz-user-select: none;
+			-khtml-user-select: none;
+			-webkit-user-select: none;
+			user-select: none;
+	}
+
+
+		/* ============ END FAQ ================ */
+
+
+
+
+
+		/* ============ FORM ================ */
+		
+		.form {
+			height: 100%;
+		}
+		.form__columns{
+			display: flex;
+			flex-direction: column;
+		}
+		.form_column-1{
+			display: flex;
+			flex-direction: column;
+		}
+		.form__row_2{
+			margin-top: 35px;
+		}
+		.form__conteiner{
+			transform: translateY(-50%);
+		}
+		
+		.form__input {
+			width: 100%;
+			border: none;
+			border-bottom: 1px solid;
+		}
+		.form__button {
+			background-color: #0079BA;
+			width: 100%;
+			border: none;
+			cursor: pointer;
+			margin-top: auto;
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 22.4px */
+			padding: 20px 0;
+		}
+	
+		textarea{
+			height: 50px;
+		}
+		input, textarea{
+			padding: 13px 0;
+			background: none;
+		}
+		input:focus, textarea:focus {
+
+			outline: none;
+	
+	}
+
+		input::placeholder, textarea::placeholder{
+			color: #1c1c2188;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+
+		}
+		.form_contacts{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/compresed/form.jpg");
+			background-size: cover;
+		}
+		.form_bcg{
+			position: relative;
+			background: linear-gradient(180deg, rgba(19, 9, 12, 0.80) 0%, #0079BA 100%);
+
+		}
+		.form_contact{
+			background-color: #F2F0F0;
+			padding: 80px 60px;
+		}
+
+		.contact{
+			padding-left: 60px;
+		}
+		.forms__title {
+			position: relative;
+			padding: 0px 0 40px 15px;
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 135%; /* 51.3px */
+		}
+		.forms__title h2{
+			padding: 15px 0 0 20px;
+			
+		}
+		.form__title {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 32px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 135%; /* 43.2px */
+			margin-bottom: 28px;
+		}
+
+		.form__subtitle {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 22.4px */
+			margin-bottom: 5px;
+		}
+		.contact__item {
+			display: flex;
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+
+		.contact__item:last-child{
+			align-items: center;
+		}
+		.contact__item svg{
+			margin-right: 10px;
+		}
+		.contact__adress_description {
+			margin-bottom: 54px;
+		}
+		.contact__phone_description {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 24px;
+		}
+		.contact__phone_description a{
+			color: #1C1C21 !important;
+			text-decoration: none !important;
+		}
+		.contact__scheduled_description {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 40px;
+		}
+		.form_star{
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: translateY(-130%);
+		}
+
+		.form__button-mobile{
+			display: none;
+		}
+
+		/* ============ END FORM ================ */
+
+		/* ============ FOOTER ================ */
+
+		.footer {
+			background-color: #1E0E13;
+			padding: 50px 0;
+		}
+		.conteiner {
+		}
+
+		.footer__logo {
+			/* width: 80%; */
+			margin-bottom: 5px;
+		}
+		.copyright {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 16.8px */
+			/* margin-bottom: 20px; */
+		}
+		.footer__column-1{
+			display: flex;
+			flex-direction: column;
+		}
+		.footer__privacy{
+			margin-top: auto;
+			color: rgba(255, 255, 255, 0.80);
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+			text-decoration-line: underline;
+			width: fit-content;
+		}
+		.footer__privacy:hover{
+			color: rgba(255, 255, 255, 0.80);
+		}
+		.footer_title {
+			color: #FDFEFF;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 140%; /* 25.2px */
+			margin-bottom: 10px;
+		}
+	
+		.footer__sub-list {
+			text-align: center;
+		}
+		.footer__sub-link {
+			color: rgba(253, 254, 255, 0.80);
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+		}
+		.footer__sub-link:hover{
+			text-decoration: none;
+			color: rgba(253, 254, 255, 0.80);
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+		}
+		.footer__contacts .footer_title {
+			text-align: end;
+		}
+		.footer__phone {
+			text-align: right;
+		}
+		.footer__phone a{
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.80);
+			text-align: right;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+		}
+		.footer__email {
+			color: rgba(255, 255, 255, 0.80);
+			text-align: right;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+			margin-top: 5px;
+		}
+		.footer__phone span,
+		.footer__email span{
+			margin-left: 5px;
+		}
+		.menu__contact {
+		}
+		.menu__contacts-media {
+		}
+
+		/* ============ END FOOTER ================ */
+
+
+		/* ============ SLIDER ================ */
+		.reviews{
+			background-color: #F2F0F0;
+			padding: 60px 30px;
+		}
+
+		.reviews__title h2{
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 135%; /* 51.3px */
+		}
+		.slider {
+			position: relative;
+			width: 100%;
+		}
+		.swiper-wrapper{
+			margin: 50px 0;
+		}
+
+		.slider__controls{
+			/* position: relative; */
+			display: flex;
+			width: 100%;
+			z-index: 2;
+		}
+
+		.button-prev,
+		.button-next
+		{
+			cursor: pointer;
+			padding: 20px 40px;
+			border: 1px solid #BEBEBE;
+			z-index: 3;
+		}
+		.button-next{
+			margin-left: 20px;
+		}
+
+
+		.reviews__item {
+			background-color: #FFFFFF;
+			padding: 50px 100px 50px 60px;
+			border-radius: 0 178px;
+			margin-right: 40px;
+		}
+		.reviews__item::before{
+			content: "";
+			position: absolute;
+			top: 0;
+			display: block;
+			width: 30%;
+			height: 2px;
+			background-color: #0079BA;
+			z-index: 3;
+		}
+		.reviews__icon_user {
+			border-radius: 360px;
+			width: 78px;
+			height: 78px;
+		}
+		.reviews__icon_user-1 {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/avatars_reviews/reviews-1.jpg");
+			background-size: cover;
+		}
+		.reviews__icon_user-2 {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/avatars_reviews/reviews-2.jpg");
+			background-size: cover;
+		}
+
+
+		.reviews__user {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 19.6px */
+		}
+		.reviews__name_user {
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 22.4px */
+			margin-top: 10px;
+		}
+		.reviews__raiting {
+			text-align: center;
+		}
+		.reviews_svg{
+			text-align: end;
+		}
+		.reviews__row-2{
+			margin-top: 28px;
+		}
+
+		.swiper-pagination {
+			position: absolute;
+			margin-top: auto;
+			text-align: end;
+			bottom: 0 !important;
+			z-index: 1;
+			left: auto !important;
+			
+		}
+		.swiper-pagination-bullet {
+			padding: 5px 5px;
+			border-radius: 360;
+			opacity: 1;
+			background: #DCDCDC;
+
+		}
+		.swiper-pagination-bullet-active {
+			color:#fff;
+			background: #0079BA;
+		}
+
+		/* ============ END SLIDER ================ */
+
+
+
+
+
+
+		/* ============================================ END MAIN PAGE  =============================================================*/
+		/*=====================  PAGE PRIVACY ===================== */
+
+		.privacy{
+			margin: 100px auto 80px auto;
+			padding: 0 30px;
+		}
+
+		.privacy__title h1{
+			text-align: center;
+			color: #000;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 53.2px */
+		}
+
+		.privacy__item {
+			display: flex;
+			flex-direction: column;
+			margin-top: 50px;
+		}
+		.privacy__item-title h3{
+			color: #000;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 30px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 42px */
+		}
+		.privacy__item-description p{
+			color: #000;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 22.4px */
+		}
+		.privacy__item-description{
+			margin-top: 15px;
+		}
+
+
+		/* ====== DELIVERY ============ */
+
+		.payment {
+			margin-top: 100px;
+		}
+		.conteiner {
+		}
+		.payment__title{
+			position: relative;
+		}
+		.payment__title svg:last-child{
+			margin-left: 20px;
+		}
+		.payment__title h1{
+			color: #000;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 53.2px */
+			padding: 10px 0 0 20px;
+		}
+		.payment__block{
+			margin-top: 35px;
+			margin-left: 20px;
+		}
+		.payment__block p{
+			color: #000;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 25.2px */
+		}
+		.payment__item {
+			margin-top: 20px;
+			display: flex;
+
+		}
+		.payment__item-icon {
+			width: 50px;
+			height: 50px;
+			background-color: #0079BA;
+			margin-right: 15px;
+		}
+		.payment__item-description {
+			color: #000;
+			font-family: Montserrat;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 22.4px */
+		}
+		.payment__italic{
+			font-size: 12px !important;
+			font-style: italic !important;
+
+		}
+		.delivery{
+			margin-top: 60px;
+		}
+
+		.delivery__posts {
+			display: flex;
+			height: 100px;
+		}
+		.delivery__post {
+			margin-right: 100px;
+			width: 20%;
+		}
+		.delivery__post-1 {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/logo/Nova_Post.png");
+			background-size: 100%;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		.delivery__post-2 {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/logo/Ukr_post.png");
+			background-size: 100%;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		.delivery__post-3 {
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/logo/meest.png");
+			background-size: 100%;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+
+		.return{
+			margin: 60px 0 100px 0;
+		}
+
+		/* ====== END DELIVERY ============ */
+
+
+
+
+
+
+
+
+
+		/* =========== PAGE_OF_CATALOGE ==================*/
+		.mirrors_photo{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/our_catalog-2.jpg");
+		}
+
+		.catalog_photo {
+			
+			background-size: cover;
+			background-position: 50% 50%;
+			height: calc(60vh + 50px);
+		}
+		.catalog_photo-bcg {
+			background: linear-gradient(180deg, rgba(19, 9, 12, 0.00) 0%, rgba(0, 121, 186, 0.80) 100%);
+			height: 100%;
+			width: 100%;
+		}
+		.catalog_photo-bcg div{
+			height: 100%;
+			display: flex;
+			align-items: end;
+		}
+
+		.catalog_photo-title {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 40px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			margin-bottom: 30px;
+			
+		}
+
+
+
+		.about_article {
+			margin-bottom: 50px;
+			padding: 100px 30px 0 30px; 
+		}
+		.about_article-title h2{
+			color: #000;
+			font-family: Montserrat;
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 67.2px */
+			margin-bottom: 25px;
+		}
+		.about_article-description p{
+			color: #000;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+
+
+		.block{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			overflow: hidden;
+			font-size: 16px;
+		}
+		.block h2{
+			position: relative;
+			display: block;
+			text-align: center;
+			margin: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 10vw;
+			color: white;
+			font-weight: 400;
+		}
+		.img-parallax {
+			width: 100vmax;
+			z-index: -1;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translate(-50%,0);
+			pointer-events: none
+		}
+
+		.interesting {
+			background-image: url('https://vladhrytsaiuk.github.io/skloMix/materials/photo/main_photo/form.jpg');
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		.interesting >	.interesting_block {
+			background: linear-gradient(180deg, rgba(19, 9, 12, 0.80) 0%, #0079BA 100%);
+			justify-content: space-between;
+	
+		}
+		.interesting >	.interesting_block > .row{
+			padding: 116px 0;
+			align-items: center;
+		}
+		.interesting__text {
+			display: flex;
+			flex-direction: column;
+		}
+		.interesting__text-title {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 32px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 140%; /* 44.8px */
+			margin-bottom: 20px;
+		}
+		.interesting__text-description {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+		.interesting__button {
+			background: none;
+			border: 1px solid #FFF;
+			padding: 28px 80px;
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 28px */
+			text-decoration: none;
+		}
+		.interesting_block > .row > .col-12:last-child{
+			text-align: end;
+		}
+
+		.other_our_catalog__title{
+			position: relative;
+			margin: 60px 0;
+		}
+		.other_our_catalog__title h2{
+			color: #1C1C21;
+			font-family: Montserrat;
+			font-size: 38px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 135%; /* 51.3px */
+			padding: 15px 15px 0 15px;
+		}
+		.other_our_catalog__cards{
+			padding: 0 15px 84px 15px;
+			margin: 0;
+			display:flex;
+			/* justify-content: center; */
+			align-items: center;
+			gap: 20px;
+			flex-wrap: nowrap;
+		}
+		.other_our_catalog__card{
+			flex: 1 1 auto;
+			padding: 0;
+			display: flex;
+			height: 250px;
+		}
+
+		.other_our_catalog__card .our_catalog__card-1{
+			width: 100%;
+		}
+		.other_our_catalog__card .our_catalog__card-2{
+			margin: 0;
+			width: 100%;
+		}
+		.other_our_catalog__card .our_catalog__card-3{
+			width: 100%;
+		}
+		.other_our_catalog__card .our_catalog__card-text{
+			font-size: 16px;
+		}
+
+		.other_our_catalog__card .our_catalog__card-1,
+		.other_our_catalog__card .our_catalog__card-2,
+		.other_our_catalog__card .our_catalog__card-3{
+			background-position: 50% 50%;
+		}
+
+		.other_our_catalog__card:hover .our_catalog__card-bcg_grad{
+			opacity: 1;
+			transition: .5s;
+		}
+		.other_our_catalog__card:hover .our_catalog__card-text{
+			font-size: 17px;
+			transition: .5s;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		/* ============= article ==================== */
+
+
+		.articles {
+			padding: 50px 30px 100px 30px;
+	padding-top: 3.75rem;
+	padding-bottom: 3.75rem;
+}
+.articles__conteiner{
+	max-width: 79.375rem;
+	margin: 0 auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+.articles__title {
+	color: #1C1C21;
+	font-family: Montserrat;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 135%; /* 51.3px */
+	margin-bottom: 30px;
+}
+.filter-articles__item {
+	font-size: 0.75rem;
+	line-height: 2;
+	color: #c4c4c4;
+	transition: all 0.3s;
+}
+.filter-articles__item:hover,
+.filter-articles__item.active {
+	color: #495057;
+
+}
+
+.articles__items {
+	margin: 0 auto;
+	transition: all 0.3s;
+}
+
+
+		.articles {
+			padding-top: 3.75rem;
+			padding-bottom: 3.75rem;
+		}
+	
+		.articles__filter {
+			margin-bottom: 1.25rem;
+		}
+		.filter-articles {
+			display: flex;
+			align-items: center;
+			column-gap: 20px;
+			row-gap: 20px;
+			flex-wrap: wrap;
+		}
+		.filter-articles__item {
+			background-color: #F3F3F3;
+			color: #1C1C21;
+			text-align: center;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 19.6px */
+			letter-spacing: 1.4px;
+			transition: all 0.3s;
+			border: none;
+			padding: 22px 30px;
+		}
+		.filter-articles__item:hover,
+		.filter-articles__item.active {
+			background-color: #0079BA;
+			color: #FFF;
+		}
+		
+		.articles__items {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			margin: 0 auto;
+			transition: all 0.3s;
+			grid-gap: 20px;
+		}
+		.articles__item {
+			height: 520px;
+		}
+		
+		
+		.article__image:hover img {
+			transform: scale(1.03);
+		}
+		
+		.article__image {
+			display: block;
+			position: relative;
+			border-radius: 0.1875rem;
+			overflow: hidden;
+			/* padding-bottom: 60%; */
+			height: 100%;
+			background-size: cover;
+		}
+		.article__image img.init{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			object-fit: cover;
+			transition: all.3s;
+		}
+		.article__body {
+			display: flex;
+			flex-direction: column;
+			padding: 0 30px 30px 30px;
+			background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, rgba(0, 0, 0, 0.68) 68.02%);
+			height: 100%;
+			visibility: hidden;
+			opacity: 0;
+			transition: .5s;
+			transform: translateY(50%);
+		}
+		.article__title {
+			margin-top: auto;
+		}
+		.article__link-title {
+			font-size: 0.75rem;
+			line-height: 1.5;
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 28px */
+			margin: 0;
+		}
+		.article__image:hover .article__body{
+			visibility: visible;
+			opacity: 1;
+			transform: translateY(0);
+			transition: .5s;
+		}
+		.article__text {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 140%; /* 28px */	
+		}
+
+		.article__image-1{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/catalog/1.jpg");
+		}
+		.article__image-2{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/catalog/2.jpg");
+		}
+		.article__image-3{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/catalog/3.jpg");
+		}
+		.article__image-4{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/catalog/4.jpg");
+		}
+		.article__image-5{
+			background-image: url("https://vladhrytsaiuk.github.io/skloMix/materials/photo/catalog/5.jpg");
+		}
+
+		.hide{
+			visibility: hidden;
+			display: none;
+			opacity: 0;
+			transition: .3s;
+		}
+
+
+		/* ============= end article ==================== */
+
+		
+
+		/* =========== END PAGE_OF_CATALOGE ==================*/

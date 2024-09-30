@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/null.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/header.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/style.css">
+	<link rel="stylesheet" href="https://vladhrytsaiuk.github.io/skloMix/style/adaptive.css">
+	<link rel="icon" type="image/x-icon" href="https://vladhrytsaiuk.github.io/skloMix/materials/logo/favicon.png">
+	<title>Sklo-mix</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href='https://vladhrytsaiuk.github.io/skloMix/index.html' class='header__logo'>
+					<img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo-black_png.png" alt="logo">
+				</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto='.about_us'
+									href="https://vladhrytsaiuk.github.io/skloMix/index.html#about_us"
+									class="menu__link">Про нас</a></li>
+							<li>
+								<a href="https://vladhrytsaiuk.github.io/skloMix/index.html#our_catalog"
+									data-goto='.our_catalog' class="menu__link">Каталог</a>
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="7" viewBox="0 0 13 7"
+									fill="none" class="menu__arrow">
+									<path d="M12 1L6.5 6L1 1" stroke="black" />
+								</svg>
+								<!-- <img href='https://vladhrytsaiuk.github.io/skloMix/materials/icon/arrow_for_tempate.svg' class="menu__arrow"> -->
+								<!-- <span class="menu__arrow"></span> -->
+								<ul class="menu__sub-list">
+									<li><a href='' class='menu__sub-link'>Меблі</a></li>
+									<li><a href='' class='menu__sub-link'>Дзеркала</a></li>
+									<li><a href='' class='menu__sub-link'>Скляні конструкції</a></li>
+									<li><a href='' class='menu__sub-link'>Металопластикові конструкції</a></li>
+								</ul>
+							</li>
+							<li><a href="https://vladhrytsaiuk.github.io/skloMix/payment_and_delivery.html"
+									class="menu__link">Доставка та оплата</a></li>
+							<li><a data-goto='.form__conteiner'
+									href="https://vladhrytsaiuk.github.io/skloMix/index.html#form__conteiner"
+									class="menu__link">Контакти</a>
+							</li>
+						</ul>
+						<a href='/index.html#form__conteiner' class='menu__button'>Замовити дзвінок</a>
+						<div class="menu__contacts">
+							<div class="menu__contacts-title">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="17" viewBox="0 0 12 17"
+									fill="none" class='star-title_menu'>
+									<path
+										d="M12 8.49394C9.64622 8.79686 8.29387 9.07555 7.46362 9.99644C6.48787 11.0748 6.25678 13.0499 6 17C5.73466 12.9045 5.49501 10.9416 4.42511 9.88738C3.59486 9.06343 2.25107 8.79686 0 8.50606C2.34522 8.20314 3.70613 7.92445 4.52782 7.01568C5.51213 5.92516 5.74322 3.96222 6 0C6.23966 3.64718 6.45364 5.598 7.24964 6.72487C8.04565 7.85175 9.43224 8.16678 12 8.49394Z"
+										fill="#0079BA" />
+								</svg>
+								<h3>Контакти</h3>
+							</div>
+							<div class="menu__contact menu__contacts-number">
+								<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16"
+									fill="none">
+									<path
+										d="M9.84388 9.77235L7.55646 10.3235C6.01139 9.35922 5.05697 8.25159 4.50153 6.52502L4.92919 3.67266L4.12078 1H2.03736C1.41107 1 0.917888 1.64351 1.01142 2.41349C1.24494 4.33573 1.93345 7.82098 3.94608 10.3235C6.05965 12.9514 9.10376 14.0918 10.7791 14.5451C11.4261 14.7201 12 14.0926 12 13.2693V10.7939L9.84388 9.77235Z"
+										stroke="#0079BA" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								<span>+38 (099) 999-99-99</span>
+							</div>
+							<div class="menu__contact menu__contacts-email">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11"
+									fill="none">
+									<path
+										d="M16 1.8403C16 1.59859 15.9459 1.35924 15.8408 1.13593C15.7356 0.912615 15.5814 0.709712 15.387 0.538813C15.1926 0.367914 14.9618 0.232366 14.7079 0.139915C14.4539 0.0474634 14.1817 -8.02568e-05 13.9068 1.01696e-07H2.09287C1.81802 -4.00749e-05 1.54585 0.0475332 1.29191 0.140003C1.03797 0.232472 0.807235 0.368026 0.612885 0.538921C0.418535 0.709817 0.264378 0.912705 0.159217 1.136C0.0540568 1.35929 -4.56618e-05 1.59861 2.89159e-08 1.8403V8.25305C2.51192e-08 8.4947 0.0541362 8.73399 0.159317 8.95725C0.264498 9.18051 0.418663 9.38336 0.613008 9.55422C0.807354 9.72509 1.03807 9.86061 1.29199 9.95306C1.54591 10.0455 1.81805 10.0931 2.09287 10.093H13.9075C14.1823 10.093 14.4545 10.0454 14.7084 9.95292C14.9623 9.86041 15.193 9.72482 15.3874 9.5539C15.5817 9.38298 15.7358 9.18007 15.8409 8.95676C15.946 8.73345 16.0001 8.49412 16 8.25243V1.8403ZM14.5833 2.47646L10.0873 6.77457C9.52974 7.30277 8.74087 7.64624 7.92104 7.64624H7.90574C7.0807 7.64624 6.28939 7.29176 5.73461 6.75469L1.2393 2.38746C0.918957 2.07702 0.944348 1.58736 1.29739 1.30537C1.65043 1.02337 2.19583 1.0405 2.51617 1.35002L7.01148 5.69523C7.12626 5.80557 7.26577 5.89383 7.42122 5.95447C7.57668 6.01511 7.74472 6.0468 7.91478 6.04756C8.25878 6.05705 8.58887 5.92278 8.82191 5.70104L13.3186 1.44422C13.395 1.36884 13.4877 1.30761 13.5913 1.26413C13.6949 1.22065 13.8074 1.19579 13.922 1.191C14.0367 1.18621 14.1513 1.20159 14.2592 1.23624C14.367 1.2709 14.4659 1.32412 14.5501 1.3928C14.6342 1.46149 14.7019 1.54424 14.7492 1.63623C14.7966 1.72821 14.8225 1.82757 14.8256 1.92849C14.8287 2.02941 14.8089 2.12986 14.7673 2.22395C14.7257 2.31805 14.6631 2.40389 14.5833 2.47646Z"
+										fill="#0079BA" />
+								</svg>
+								<span>sklo-mix@gmail.com</span>
+							</div>
+							<div class="menu__contact menu__contacts-media">
+								<div>
+									<a href=''>
+										<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/facebook.svg"
+											alt="">
+									</a>
+								</div>
+								<div>
+									<a href=''>
+										<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/instagram.svg"
+											alt="">
+									</a>
+								</div>
+							</div>
+							<svg xmlns="http://www.w3.org/2000/svg" width="188" height="383" viewBox="0 0 188 383"
+								fill="none" class='star_menu'>
+								<path
+									d="M-195 191.364C-119.875 198.188 -76.7126 204.467 -50.214 225.214C-19.0713 249.51 -11.6954 294.006 -3.5 383C4.96861 290.731 12.6177 246.507 46.7653 222.757C73.2639 204.194 116.153 198.188 188 191.636C113.148 184.812 69.7125 178.533 43.4872 158.059C12.0713 133.49 4.69543 89.2666 -3.5 0C-11.1491 82.1689 -17.9786 126.12 -43.3844 151.507C-68.7903 176.895 -113.046 183.993 -195 191.364Z"
+									fill="#E7E7E7" />
+							</svg>
+						</div>
+						<!-- <img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo-black_png.png" alt="logo" class='menu__body-logo'> -->
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="conteiner privacy">
+				<div class="privacy__title">
+					<h1>Умови використання та політики конфіндденційності</h1>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Використання сайту</h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>Сайт Скло-Мікс(далі - “Сайт”) надає можливість переглядати та завантажувати матеріали тільки
+							для
+							особистого некомерційного використовування за умови збереження інформації про авторське
+							право тат інших
+							відомостей про право власності. Забороняється змінювати матеріли цього сайту, а також
+							росповсюджувати або
+							використовувати їх для громадських чи комерційних цілей. будб-яке використання цих
+							матеріалів на інших
+							сайтах або комп’ютерних мережах забороняється. Користуючись, ви надаєте згоду на збір та
+							використання
+							особистих даних, як це передбачено законодавством про захист особистих даних та політику
+							конфіденціальності.</p>
+					</div>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Відмова від відповідальності</h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>Матеріали цього сайту надаються "як є" без будь-яких гарантій. Цей сайт не гарантує точності
+							та повноти
+							наданих матеріалів, залишаючи за собою право внесення будь-яких змін на Сайті у будь-який
+							час та без
+							повідомлень, не гарантуючи оновлень застарілої чи не актуальної інформації. цей сайт за
+							жодних обставин не
+							несе відповідальності за будь-які збитки, що виникли внаслідок використання, неможливості
+							використання або
+							результатів використання цього сайту.</p>
+					</div>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Регістрація на сайті та збір особистих даних </h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>При здійсненні реєстрації ми збираємо та обробляємо Особисті дані, надані клієнтом у формі
+							реєстрації, а
+							також збережені дані у файлах cookies. Файл cookie є невеликим фрагментом інформації, який
+							надсилається
+							Вашому браузеру і зберігається на жорсткому диску Вашого комп'ютера (використовуються нами
+							для відстеження
+							використання нашого Сайту, а також для збору інформації про відвідувачів Сайту, наприклад:
+							IP-адреса, тип
+							браузера, операційної системи, дата та час відвідування).
+							Реєструючись на Сайті, Ви погоджуєтесь надати достовірну та точну інформацію про себе
+							(відповідно до поля
+							реєстраційної форми), а також зобов'язуєтеся тримати цю інформацію актуальною. Зверніть
+							увагу! Оскільки
+							деякі наші продукти мають обмеження на продаж у певні країни, ми не гарантуємо коректність
+							роботи послуг
+							за неправильно вказаних Вами даних про Ваше місцезнаходження.</p>
+					</div>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Захист особистих даних та конфінденціальність</h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>Будь-які Ваші Особисті дані захищаються та обробляються нами відповідно до Політики
+							конфіденційності. Ви
+							розумієте та погоджуєтесь, що в момент надання своїх Особистих даних Клієнт приймає цю
+							Політику
+							конфіденційності.
+							Ми зобов'язуємось вживати всіх розумних заходів для того, щоб до Ваших Особистих даних не
+							отримали
+							незаконного доступу треті особи.
+							Доступ до Особистих даних клієнта мають співробітники, які дотримуються суворих стандартів
+							конфіденційності при обробці Ваших Особистих даних та обов'язки яких безпосередньо пов'язані
+							з такою
+							обробкою.
+							Для забезпечення безпеки та конфіденційності Особистих даних, які ми збираємо на Сайті, ми
+							використовуємо
+							стандартизовані системи обмеження доступу та захист паролями.
+							Ми прагнемо створити безпечні варіанти використання Сайту, але Ви повинні усвідомлювати, що
+							Інтернет є
+							вразливим середовищем, тому конфіденційність Особистих даних, що передаються через Сайт або
+							електронною
+							поштою, не може бути повністю гарантована нами, оскільки окремі етапи передачі Особистих
+							даних по
+							інтернет-каналах знаходяться поза нашим контролем.</p>
+					</div>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Зворотній зв’язок</h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>Звертаючись до нас, ви несете відповідальність, що відповідне повідомлення не є незаконним,
+							погрозою,
+							шкідливим , не порушує авторські права, не порушує моральність, не пропагує ненависть та\або
+							дискримінацію
+							людей по расовому, етнічному, статевому, гендерному, релігійному та соціальному ознаку,
+							містить образи на
+							адресу конкретних осіб чи організацій. Ви погоджуєтесь що цей сайт може видаляти будь яке
+							ваше
+							повідомлення без вашого погодження, а також безоплатно використовувати на власний россуд.
+						</p>
+					</div>
+				</div>
+				<div class="privacy__item">
+					<div class="privacy__item-title">
+						<h3>Повідомлення та посилання </h3>
+					</div>
+					<div class="privacy__item-description">
+						<p>Цей сайт може може надсилати вам повідомлення в процесі оформлення замовлення товарів, а
+							також
+							відповідати вам у відповідь на ваші повідомлення (запити та скарги), надіслані вами через
+							форму
+							зворотнього зв’язку. Також ми можемо надсилати вам інформаційні та маркетингові розсилки
+							(новини, акції
+							компанії, інформацію про акції, промокоди та знижки , персональні рекомендаціх, персональні
+							знижки та
+							пропозиції), які містять інформацію про товари. рекламні та комерційні пропозиції щодо таких
+							товарів.
+							Надсилання повідомленб та розсилок здійснюється у вигляді email листів та\або повідомлень у
+							веб браузері.
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="conteiner">
+				<div class="row">
+					<div class="col-12 col-md-3 order-4 order-md-0 footer__column">
+						<div class="footer__logo">
+							<a href='https://vladhrytsaiuk.github.io/skloMix/index.html'>
+								<img src="https://vladhrytsaiuk.github.io/skloMix/materials/logo/logo_crop.png"
+									alt="logo">
+							</a>
+						</div>
+						<div class="copyright">
+							<span>© 2023 Скло-Мікс | Powered by WeGaS</span>
+						</div>
+						<a href='https://vladhrytsaiuk.github.io/skloMix/privacy.html' class='footer__privacy'>Політика
+							конфіденційності</a>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="footer_title">
+							<h3>Каталог</h3>
+						</div>
+						<ul class="footer__sub-list">
+							<li><a href='' class='menu__link footer__sub-link'>Меблі</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Дзеркала</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Скляні конструкції</a></li>
+							<li><a href='' class='menu__link footer__sub-link'>Металопластикові конструкції</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3">
+						<div class="footer_title">
+							<h3>Інформація</h3>
+						</div>
+						<ul class="footer__sub-list">
+							<li><a data-goto='.about_us'
+									href='https://vladhrytsaiuk.github.io/skloMix/index.html#about_us'
+									class='menu__link footer__sub-link'>Про нас</a>
+							</li>
+							<li><a data-goto='.form__conteiner'
+									href='https://vladhrytsaiuk.github.io/skloMix/index.html#form__conteiner'
+									class='menu__link footer__sub-link'>Контакти</a></li>
+							<li><a data-goto='' href='https://vladhrytsaiuk.github.io/skloMix/payment_and_delivery.html'
+									class='menu__link footer__sub-link'>Доставка та
+									Оплата</a>
+							</li>
+							<li><a data-goto='.faq' href='https://vladhrytsaiuk.github.io/skloMix/index.html#FaQ'
+									class='menu__link footer__sub-link'>FaQ</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3 footer__contacts">
+						<div class="footer_title">
+							<h3>Контакти</h3>
+						</div>
+						<div class="footer__phone">
+							<svg xmlns="http://www.w3.org/2000/svg" width="11" height="14" viewBox="0 0 11 14"
+								fill="none">
+								<path
+									d="M8.84388 8.77235L6.55646 9.32347C5.01139 8.35922 4.05697 7.25159 3.50153 5.52502L3.92919 2.67266L3.12078 0H1.03736C0.411071 0 -0.0821116 0.643513 0.011425 1.41349C0.244939 3.33573 0.933454 6.82098 2.94608 9.32347C5.05965 11.9514 8.10376 13.0918 9.77914 13.5451C10.4261 13.7201 11 13.0926 11 12.2693V9.79393L8.84388 8.77235Z"
+									fill="#0079BA" />
+							</svg>
+							<a href="tel:+38068334003">+38 (068) 334-00-33</a>
+						</div>
+						<div class="footer__email">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11"
+								fill="none">
+								<path
+									d="M16 1.8403C16 1.59859 15.9459 1.35924 15.8408 1.13593C15.7356 0.912615 15.5814 0.709712 15.387 0.538813C15.1926 0.367914 14.9618 0.232366 14.7079 0.139915C14.4539 0.0474634 14.1817 -8.02568e-05 13.9068 1.01696e-07H2.09287C1.81802 -4.00749e-05 1.54585 0.0475332 1.29191 0.140003C1.03797 0.232472 0.807235 0.368026 0.612885 0.538921C0.418535 0.709817 0.264378 0.912705 0.159217 1.136C0.0540568 1.35929 -4.56618e-05 1.59861 2.89159e-08 1.8403V8.25305C2.51192e-08 8.4947 0.0541362 8.73399 0.159317 8.95725C0.264498 9.18051 0.418663 9.38336 0.613008 9.55422C0.807354 9.72509 1.03807 9.86061 1.29199 9.95306C1.54591 10.0455 1.81805 10.0931 2.09287 10.093H13.9075C14.1823 10.093 14.4545 10.0454 14.7084 9.95292C14.9623 9.86041 15.193 9.72482 15.3874 9.5539C15.5817 9.38298 15.7358 9.18007 15.8409 8.95676C15.946 8.73345 16.0001 8.49412 16 8.25243V1.8403ZM14.5833 2.47646L10.0873 6.77457C9.52974 7.30277 8.74087 7.64624 7.92104 7.64624H7.90574C7.0807 7.64624 6.28939 7.29176 5.73461 6.75469L1.2393 2.38746C0.918957 2.07702 0.944348 1.58736 1.29739 1.30537C1.65043 1.02337 2.19583 1.0405 2.51617 1.35002L7.01148 5.69523C7.12626 5.80557 7.26577 5.89383 7.42122 5.95447C7.57668 6.01511 7.74472 6.0468 7.91478 6.04756C8.25878 6.05705 8.58887 5.92278 8.82191 5.70104L13.3186 1.44422C13.395 1.36884 13.4877 1.30761 13.5913 1.26413C13.6949 1.22065 13.8074 1.19579 13.922 1.191C14.0367 1.18621 14.1513 1.20159 14.2592 1.23624C14.367 1.2709 14.4659 1.32412 14.5501 1.3928C14.6342 1.46149 14.7019 1.54424 14.7492 1.63623C14.7966 1.72821 14.8225 1.82757 14.8256 1.92849C14.8287 2.02941 14.8089 2.12986 14.7673 2.22395C14.7257 2.31805 14.6631 2.40389 14.5833 2.47646Z"
+									fill="#0079BA" />
+							</svg>
+							<span>vs2808@ukr.net
+							</span>
+						</div>
+						<div class="menu__contact menu__contacts-media">
+							<div>
+								<a href='https://www.facebook.com/profile.php?id=100075954558758'>
+									<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/facebook_white.svg"
+										alt="facebook">
+								</a>
+							</div>
+							<div>
+								<a href='https://www.instagram.com/sklo_mix_nv/'>
+									<img src="https://vladhrytsaiuk.github.io/skloMix/materials/icon/instagram_white.svg"
+										alt="instagram">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src='https://vladhrytsaiuk.github.io/skloMix/script/header.js'></script>
+</body>
+
+</html>
